@@ -1,0 +1,221 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ResellerAccount-PAOpp-PartnerQuote-VIPRE-User,Chrome 116.0.0.0,,,2023-09-20 21:50:34,2023-09-20 21:57:29,6m - 54.143s,FAILED
+,,,,,,,
+Test Cases/LoginasVIPREUser,Chrome 116.0.0.0,,,2023-09-20 21:50:35,2023-09-20 21:51:32,57.280s,PASSED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-09-20 21:50:35,2023-09-20 21:50:57,21.712s,PASSED
+"click(findTestObject(""Object Repository/UserLogin/SetUp""))",Chrome 116.0.0.0,,,2023-09-20 21:50:57,2023-09-20 21:51:01,4.323s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:51:01,2023-09-20 21:51:06,5.015s,PASSED
+"click(findTestObject(""Object Repository/UserLogin/SetUpforCurrentApp""))",Chrome 116.0.0.0,,,2023-09-20 21:51:06,2023-09-20 21:51:07,0.695s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:51:07,2023-09-20 21:51:12,5.007s,PASSED
+switchToWindowIndex(1),Chrome 116.0.0.0,,,2023-09-20 21:51:12,2023-09-20 21:51:12,0.071s,PASSED
+"setText(findTestObject(""Object Repository/UserLogin/SearchSetUp""), LoginUserNameVIPRE)",Chrome 116.0.0.0,,,2023-09-20 21:51:12,2023-09-20 21:51:15,2.382s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:51:15,2023-09-20 21:51:20,5.003s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/UserLogin/SelectSearchUser"", [""value"":LoginUserNameVIPRE]), 20)",Chrome 116.0.0.0,,,2023-09-20 21:51:20,2023-09-20 21:51:20,0.718s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:51:20,2023-09-20 21:51:25,5.004s,PASSED
+"switchToFrame(findTestObject(""Object Repository/UserLogin/UserIFrame""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:51:25,2023-09-20 21:51:26,1.195s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/UserLogin/IsActiveChecked""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:51:26,2023-09-20 21:51:27,0.266s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/UserLogin/LoginButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:51:27,2023-09-20 21:51:27,0.464s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:51:27,2023-09-20 21:51:32,5.006s,PASSED
+,,,,,,,
+Test Cases/CreatingResellerAccount-User-VIPRE,Chrome 116.0.0.0,,,2023-09-20 21:51:32,2023-09-20 21:52:07,34.440s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:51:33,2023-09-20 21:51:38,5.014s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-20 21:51:38,2023-09-20 21:51:39,0.531s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/AccountObject/AccountsTab""), 30)",Chrome 116.0.0.0,,,2023-09-20 21:51:39,2023-09-20 21:51:39,0.702s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/AccountObject/NewButtononAccount""), 30)",Chrome 116.0.0.0,,,2023-09-20 21:51:39,2023-09-20 21:51:41,1.688s,PASSED
+"click(findTestObject(""Object Repository/AccountRecordTypes/Reseller""))",Chrome 116.0.0.0,,,2023-09-20 21:51:41,2023-09-20 21:51:42,1.098s,PASSED
+"click(findTestObject(""Object Repository/AccountRecordTypes/NextButton""))",Chrome 116.0.0.0,,,2023-09-20 21:51:42,2023-09-20 21:51:43,0.683s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountRecordTypes/ResellerTextVerify""), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:51:43,2023-09-20 21:51:46,2.918s,PASSED
+"sendKeys(findTestObject(""AccountCreationPage/AccountName""), AccountName_Reseller_VIPRE)",Chrome 116.0.0.0,,,2023-09-20 21:51:46,2023-09-20 21:51:47,1.263s,PASSED
+"scrollToElement(findTestObject(""Object Repository/AccountCreationPage/AccountCurrencyLabel""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:51:47,2023-09-20 21:51:47,0.522s,PASSED
+"scrollToElement(findTestObject(""Object Repository/AccountCreationPage/BillingCountryLabel""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:51:47,2023-09-20 21:51:48,0.526s,PASSED
+"click(findTestObject(""Object Repository/AccountCreationPage/BillingCountryNone""))",Chrome 116.0.0.0,,,2023-09-20 21:51:48,2023-09-20 21:51:49,0.833s,PASSED
+"click(findTestObject(""Object Repository/AccountCreationPage/BillingCountryBahrain""))",Chrome 116.0.0.0,,,2023-09-20 21:51:49,2023-09-20 21:51:50,0.719s,PASSED
+"setText(findTestObject(""AccountCreationPage/BillingStreet""), BillingStreet)",Chrome 116.0.0.0,,,2023-09-20 21:51:50,2023-09-20 21:51:51,1.804s,PASSED
+"setText(findTestObject(""AccountCreationPage/BillingCity""), BillingCity)",Chrome 116.0.0.0,,,2023-09-20 21:51:51,2023-09-20 21:51:53,1.367s,PASSED
+"setText(findTestObject(""AccountCreationPage/PostalCode""), PostalCode)",Chrome 116.0.0.0,,,2023-09-20 21:51:53,2023-09-20 21:51:54,1.335s,PASSED
+"setText(findTestObject(""AccountCreationPage/CompanyRegistrationNo""), CompanyRegistrationNumber)",Chrome 116.0.0.0,,,2023-09-20 21:51:54,2023-09-20 21:51:55,1.382s,PASSED
+"scrollToElement(findTestObject(""Object Repository/AccountCreationPage/SalesTerritoryLabel""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:51:55,2023-09-20 21:51:56,0.505s,PASSED
+"click(findTestObject(""Object Repository/AccountCreationPage/SalesTerritoryNone""))",Chrome 116.0.0.0,,,2023-09-20 21:51:56,2023-09-20 21:51:57,0.671s,PASSED
+"click(findTestObject(""Object Repository/AccountCreationPage/SalesTerritoryValue"", [""value"":SalesTerritory_VIPRE]))",Chrome 116.0.0.0,,,2023-09-20 21:51:57,2023-09-20 21:51:57,0.756s,PASSED
+"click(findTestObject(""Object Repository/AccountCreationPage/SaveButton""))",Chrome 116.0.0.0,,,2023-09-20 21:51:57,2023-09-20 21:51:58,0.674s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/AccountPageAppear""), 30)",Chrome 116.0.0.0,,,2023-09-20 21:51:58,2023-09-20 21:52:07,8.576s,PASSED
+,,,,,,,
+Test Cases/CreatePAOpp-User-VIPRE,Chrome 116.0.0.0,,,2023-09-20 21:52:07,2023-09-20 21:52:31,24.749s,PASSED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/DropDownMenuonAccount""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:07,2023-09-20 21:52:08,0.670s,PASSED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/PAOpportunity-VIPRE""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:08,2023-09-20 21:52:09,0.993s,PASSED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/CloseDateBox""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:09,2023-09-20 21:52:12,2.505s,PASSED
+"setText(findTestObject(""Object Repository/PartnerAcquisitionCreation/CloseDateBox""), CloseDateUser, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:12,2023-09-20 21:52:13,1.172s,PASSED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/SaveButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:13,2023-09-20 21:52:13,0.659s,PASSED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/ClickOpportunities""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:13,2023-09-20 21:52:23,9.158s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerAcquisitionCreation/OpportunityTextVerify""), 30, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:23,2023-09-20 21:52:24,1.771s,PASSED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/ClickonCreatedOpportunity"", [""value"":AccountName_Reseller_VIPRE]), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:24,2023-09-20 21:52:25,0.701s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerAcquisitionCreation/PAOppPageVerify"", [""value"":AccountName_Reseller_VIPRE]), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:25,2023-09-20 21:52:29,3.455s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerAcquisitionCreation/PartnerModelValidationMsg""), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:52:29,2023-09-20 21:52:29,0.851s,PASSED
+sleep(2000),Chrome 116.0.0.0,,,2023-09-20 21:52:29,2023-09-20 21:52:31,2.013s,PASSED
+,,,,,,,
+Test Cases/PartnerContract-PartnerQuoteCreation,Chrome 116.0.0.0,,,2023-09-20 21:52:31,2023-09-20 21:54:34,2m - 3.104s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelValidationMessageRevalidate""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:32,2023-09-20 21:52:33,0.467s,PASSED
+"MandatoryFields = getText(findTestObject(""Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields""))",Chrome 116.0.0.0,,,2023-09-20 21:52:33,2023-09-20 21:52:33,0.504s,PASSED
+"out.println(""Fields:"" + MandatoryFields)",Chrome 116.0.0.0,,,2023-09-20 21:52:33,2023-09-20 21:52:33,0.034s,PASSED
+"scrollToElement(findTestObject(""Object Repository/PAOppMandatoryField/PartnerModel/QualificationElement""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:33,2023-09-20 21:52:34,0.518s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelEdit""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:34,2023-09-20 21:52:36,2.423s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:52:36,2023-09-20 21:52:41,5.021s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelNone""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:41,2023-09-20 21:52:42,0.534s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelValues"", [""value"":ResellerPartnerModel]), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:42,2023-09-20 21:52:43,0.657s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/Accreditation/AccreditationNone""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:43,2023-09-20 21:52:43,0.561s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/Accreditation/AccreditationValues"", [""value"":ResellerAccreditationLevel]), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:43,2023-09-20 21:52:44,0.567s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/SaveButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:44,2023-09-20 21:52:44,0.532s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:52:44,2023-09-20 21:52:49,5.006s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/RevalidateButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:49,2023-09-20 21:52:50,0.520s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:50,2023-09-20 21:52:52,1.926s,PASSED
+"scrollToPosition(0, 3500)",Chrome 116.0.0.0,,,2023-09-20 21:52:52,2023-09-20 21:52:52,0.103s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:52,2023-09-20 21:52:53,1.529s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:53,2023-09-20 21:52:54,0.768s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/PriceBookHeader-VIPRE""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:54,2023-09-20 21:52:56,1.544s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/PAProductSelection"", [""value"":PAProducts]), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:56,2023-09-20 21:52:56,0.619s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/NextButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:56,2023-09-20 21:52:57,1.082s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductVerification""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:57,2023-09-20 21:52:59,1.858s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/ClickSalePrice""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:52:59,2023-09-20 21:53:00,0.529s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/SalesPriceInput""), SalePrice)",Chrome 116.0.0.0,,,2023-09-20 21:53:00,2023-09-20 21:53:01,1.424s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/ClickEditQuantity""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:01,2023-09-20 21:53:02,0.564s,PASSED
+"sendKeys(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput""), Quantity)",Chrome 116.0.0.0,,,2023-09-20 21:53:02,2023-09-20 21:53:02,0.691s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/ClickLineDescription""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:02,2023-09-20 21:53:03,0.583s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductSaveButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:03,2023-09-20 21:53:04,0.614s,PASSED
+sleep(1000),Chrome 116.0.0.0,,,2023-09-20 21:53:04,2023-09-20 21:53:05,1.002s,PASSED
+"scrollToElement(findTestObject(""Object Repository/PAOppMandatoryField/RevalidateButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:05,2023-09-20 21:53:08,3.850s,PASSED
+sleep(1000),Chrome 116.0.0.0,,,2023-09-20 21:53:08,2023-09-20 21:53:09,1.025s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/RevalidateButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:09,2023-09-20 21:53:10,0.493s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractValidation""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:10,2023-09-20 21:53:12,2.164s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftcontractButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:12,2023-09-20 21:53:13,0.641s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractScreenValidation""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:13,2023-09-20 21:53:15,1.773s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-AnnualSalesTarget""), AnnualSalesTarget)",Chrome 116.0.0.0,,,2023-09-20 21:53:15,2023-09-20 21:53:16,1.178s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-MinimumOrderValue""), MinimumOrderValue)",Chrome 116.0.0.0,,,2023-09-20 21:53:16,2023-09-20 21:53:17,1.084s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractNext""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:17,2023-09-20 21:53:17,0.532s,PASSED
+"Contract = getAttribute(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/ClickhereOnContract""), ""href"")",Chrome 116.0.0.0,,,2023-09-20 21:53:17,2023-09-20 21:53:26,8.599s,PASSED
+"out.println(""URL of the Contract:"" + Contract)",Chrome 116.0.0.0,,,2023-09-20 21:53:26,2023-09-20 21:53:26,0.000s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/CreateDraftContract/ClickhereOnContract""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:26,2023-09-20 21:53:27,0.656s,PASSED
+switchToWindowIndex(2),Chrome 116.0.0.0,,,2023-09-20 21:53:27,2023-09-20 21:53:27,0.034s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/PartnerAgreementContract/ContractWordValidation""), 30)",Chrome 116.0.0.0,,,2023-09-20 21:53:27,2023-09-20 21:53:35,8.661s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/DetailsTab""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:35,2023-09-20 21:53:37,1.319s,PASSED
+"getText(findTestObject(""Object Repository/PartnerAgreementContract/StatusField""))",Chrome 116.0.0.0,,,2023-09-20 21:53:37,2023-09-20 21:53:38,1.679s,PASSED
+"verifyElementText(findTestObject(""Object Repository/PartnerAgreementContract/StatusField""), ""Draft"")",Chrome 116.0.0.0,,,2023-09-20 21:53:38,2023-09-20 21:53:39,0.532s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/NewQuoteButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:39,2023-09-20 21:53:39,0.558s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuoteCreationScreen/NewQuoteValidation""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:39,2023-09-20 21:53:41,1.510s,PASSED
+"scrollToElement(findTestObject(""Object Repository/PartnerQuoteCreationScreen/EndClientInputBox""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:41,2023-09-20 21:53:41,0.564s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteCreationScreen/EndClientInputBox""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:41,2023-09-20 21:53:42,0.530s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:53:42,2023-09-20 21:53:47,5.013s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteCreationScreen/EndClient-NewAccount""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:47,2023-09-20 21:53:48,0.516s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountObject/NewAccountTextVerify""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:48,2023-09-20 21:53:49,1.377s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/AccountRecordTypes/ClientOfReseller""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:49,2023-09-20 21:53:49,0.480s,PASSED
+"click(findTestObject(""Object Repository/AccountRecordTypes/NextButton""))",Chrome 116.0.0.0,,,2023-09-20 21:53:49,2023-09-20 21:53:50,0.713s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountRecordTypes/ClientOfResellerTextVerify""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:50,2023-09-20 21:53:52,2.194s,PASSED
+"setText(findTestObject(""Object Repository/CORAccountCreationPage/AccountNameInput""), COR_AccountName)",Chrome 116.0.0.0,,,2023-09-20 21:53:52,2023-09-20 21:53:54,1.296s,PASSED
+"scrollToElement(findTestObject(""Object Repository/CORAccountCreationPage/BillingcountryLabel""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:54,2023-09-20 21:53:54,0.471s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/CORAccountCreationPage/BillingCountryNone""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:54,2023-09-20 21:53:55,0.650s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/CORAccountCreationPage/BillingCountryGreenland""), 30)",Chrome 116.0.0.0,,,2023-09-20 21:53:55,2023-09-20 21:53:55,0.672s,PASSED
+"setText(findTestObject(""Object Repository/CORAccountCreationPage/BillingStreet""), COR_BillingStreet)",Chrome 116.0.0.0,,,2023-09-20 21:53:55,2023-09-20 21:53:57,1.349s,PASSED
+"setText(findTestObject(""Object Repository/CORAccountCreationPage/PostalCode""), COR_PostalCode)",Chrome 116.0.0.0,,,2023-09-20 21:53:57,2023-09-20 21:53:58,1.195s,PASSED
+"setText(findTestObject(""Object Repository/CORAccountCreationPage/BillingCity""), COR_BillingCity)",Chrome 116.0.0.0,,,2023-09-20 21:53:58,2023-09-20 21:53:59,1.197s,PASSED
+"scrollToElement(findTestObject(""Object Repository/CORAccountCreationPage/SalesTerritoryLabel""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:53:59,2023-09-20 21:54:00,0.490s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/CORAccountCreationPage/SalesTerritoryNone""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:00,2023-09-20 21:54:00,0.530s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/CORAccountCreationPage/SalesTerritoryValue"", [""value"":SalesTerritory_VIPRE]), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:00,2023-09-20 21:54:01,0.550s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/CORAccountCreationPage/SaveButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:01,2023-09-20 21:54:01,0.538s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:54:01,2023-09-20 21:54:06,5.016s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteCreationScreen/PrimaryContactInputbox""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:06,2023-09-20 21:54:07,0.542s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:54:07,2023-09-20 21:54:12,5.013s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteCreationScreen/NewContact""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:12,2023-09-20 21:54:12,0.514s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuoteCreationScreen/NewContactTextVerify""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:12,2023-09-20 21:54:15,2.484s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/FirstName""), FirstName)",Chrome 116.0.0.0,,,2023-09-20 21:54:15,2023-09-20 21:54:16,1.067s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/Last Name""), LastName)",Chrome 116.0.0.0,,,2023-09-20 21:54:16,2023-09-20 21:54:17,0.969s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/Account Name""), COR_AccountName)",Chrome 116.0.0.0,,,2023-09-20 21:54:17,2023-09-20 21:54:18,1.180s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/AccountNameList"", [""value"":COR_AccountName]), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:18,2023-09-20 21:54:20,1.602s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/Email""), Email)",Chrome 116.0.0.0,,,2023-09-20 21:54:20,2023-09-20 21:54:21,1.594s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/Phone""), PhoneNumber)",Chrome 116.0.0.0,,,2023-09-20 21:54:21,2023-09-20 21:54:22,1.112s,PASSED
+"setText(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/Title""), Title)",Chrome 116.0.0.0,,,2023-09-20 21:54:22,2023-09-20 21:54:24,1.204s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PAOppMandatoryField/PrimaryContact/SaveButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:24,2023-09-20 21:54:24,0.453s,PASSED
+sleep(10000),Chrome 116.0.0.0,,,2023-09-20 21:54:24,2023-09-20 21:54:34,10.008s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteCreationScreen/SaveButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:34,2023-09-20 21:54:34,0.516s,PASSED
+,,,,,,,
+Test Cases/PartnerContract-PartnerQuoteSelection,Chrome 116.0.0.0,,,2023-09-20 21:54:35,2023-09-20 21:55:13,38.151s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:54:35,2023-09-20 21:54:40,5.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuoteSelection/AccountNameLabelVerify""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:40,2023-09-20 21:54:47,6.783s,PASSED
+"URL = getAttribute(findTestObject(""Object Repository/PartnerQuoteSelection/ClickAccountFromContract""), ""href"")",Chrome 116.0.0.0,,,2023-09-20 21:54:47,2023-09-20 21:54:47,0.481s,PASSED
+"out.println(""URL of the Account:"" + URL)",Chrome 116.0.0.0,,,2023-09-20 21:54:47,2023-09-20 21:54:47,0.000s,PASSED
+"callTestCase(findTestCase(""Test Cases/OpenInaNewTab""), [""Path"":URL])",Chrome 116.0.0.0,,,2023-09-20 21:54:47,2023-09-20 21:54:51,3.603s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:54:51,2023-09-20 21:54:56,5.002s,PASSED
+refresh(),Chrome 116.0.0.0,,,2023-09-20 21:54:56,2023-09-20 21:54:56,0.059s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:54:56,2023-09-20 21:55:03,7.181s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:03,2023-09-20 21:55:05,1.217s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:05,2023-09-20 21:55:05,0.962s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuoteSelection/OpportunityTextVerify""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:05,2023-09-20 21:55:08,2.541s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteSelection/SelectPartnerOpportunitylinkedwithQuote""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:08,2023-09-20 21:55:09,0.597s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuoteSelection/OpportunityPageVerification""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:09,2023-09-20 21:55:12,3.099s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuoteSelection/SelectQuote""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:12,2023-09-20 21:55:13,0.955s,PASSED
+,,,,,,,
+Test Cases/PartnerContract-PartnerQuotePageandEditLines,Chrome 116.0.0.0,,,2023-09-20 21:55:13,2023-09-20 21:57:29,2m - 15.970s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuotePageandEditlines/QuoteTextVerification""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:14,2023-09-20 21:55:16,2.256s,PASSED
+"scrollToElement(findTestObject(""Object Repository/PartnerQuotePageandEditlines/StatusField""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:16,2023-09-20 21:55:17,0.744s,PASSED
+"Status = verifyElementText(findTestObject(""Object Repository/PartnerQuotePageandEditlines/StatusFieldValue""), ""Draft"")",Chrome 116.0.0.0,,,2023-09-20 21:55:17,2023-09-20 21:55:19,1.990s,PASSED
+out.println(Status),Chrome 116.0.0.0,,,2023-09-20 21:55:19,2023-09-20 21:55:19,0.016s,PASSED
+"scrollToElement(findTestObject(""Object Repository/PartnerQuotePageandEditlines/PartnerContract""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:19,2023-09-20 21:55:35,15.800s,PASSED
+"Contract = getAttribute(findTestObject(""Object Repository/PartnerQuotePageandEditlines/PartnerContractValue""), ""href"")",Chrome 116.0.0.0,,,2023-09-20 21:55:35,2023-09-20 21:55:36,0.658s,PASSED
+out.println(Contract),Chrome 116.0.0.0,,,2023-09-20 21:55:36,2023-09-20 21:55:36,0.003s,PASSED
+"verifyNotMatch(Contract, null, false)",Chrome 116.0.0.0,,,2023-09-20 21:55:36,2023-09-20 21:55:36,0.017s,PASSED
+"out.println(""success"")",Chrome 116.0.0.0,,,2023-09-20 21:55:36,2023-09-20 21:55:36,0.000s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/QuoteLineandQuote/EditLineButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:36,2023-09-20 21:55:36,0.457s,PASSED
+"switchToFrame(findTestObject(""Object Repository/QuoteLineandQuote/IFrameSelector""), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:36,2023-09-20 21:55:46,9.921s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/EditQuoteTextVerify""), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:46,2023-09-20 21:55:50,4.226s,PASSED
+"click(findTestObject(""Object Repository/QuoteLineandQuote/AddProductButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:50,2023-09-20 21:55:51,0.567s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/ProductSelectionTextVerify""), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:51,2023-09-20 21:55:51,0.157s,PASSED
+"click(findTestObject(""Object Repository/QuoteLineandQuote/SearchProductSearchBar""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:51,2023-09-20 21:55:52,0.906s,PASSED
+"setText(findTestObject(""Object Repository/QuoteLineandQuote/SearchProductSearchBar""), Product, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:52,2023-09-20 21:55:52,0.449s,PASSED
+"click(findTestObject(""Object Repository/QuoteLineandQuote/ClickSearchButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:52,2023-09-20 21:55:53,0.390s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/ProdutCode"", [""value"":Product]), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:53,2023-09-20 21:55:53,0.605s,PASSED
+"click(findTestObject(""Object Repository/QuoteLineandQuote/SelectProductCheckbox"", [""value"":Product]), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:53,2023-09-20 21:55:54,0.348s,PASSED
+"click(findTestObject(""Object Repository/QuoteLineandQuote/SelectProduct-SelectionPage""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:54,2023-09-20 21:55:54,0.288s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/EditQuoteTextVerify""), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:55:54,2023-09-20 21:55:57,3.123s,PASSED
+"doubleClick(findTestObject(""Object Repository/PartnerQuotePageandEditlines/EditQuantity""))",Chrome 116.0.0.0,,,2023-09-20 21:55:57,2023-09-20 21:55:57,0.505s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuotePageandEditlines/EditQuantity""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:58,2023-09-20 21:55:58,0.168s,PASSED
+"sendKeys(findTestObject(""Object Repository/PartnerQuotePageandEditlines/QuantityInput""), ProductQuantity)",Chrome 116.0.0.0,,,2023-09-20 21:55:58,2023-09-20 21:55:58,0.255s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PartnerQuotePageandEditlines/TargetCustomerAmountLabel""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:58,2023-09-20 21:55:58,0.147s,PASSED
+"click(findTestObject(""Object Repository/PartnerQuotePageandEditlines/TargetCustomerAmountField""))",Chrome 116.0.0.0,,,2023-09-20 21:55:58,2023-09-20 21:55:58,0.376s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerQuotePageandEditlines/QuickSaveButton""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:55:58,2023-09-20 21:55:59,0.188s,PASSED
+sleep(1000),Chrome 116.0.0.0,,,2023-09-20 21:55:59,2023-09-20 21:56:00,1.007s,PASSED
+"Quantity = getText(findTestObject(""Object Repository/PartnerQuotePageandEditlines/QuantityValue""))",Chrome 116.0.0.0,,,2023-09-20 21:56:00,2023-09-20 21:56:12,12.067s,PASSED
+out.println(Quantity),Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+"QuantityNew = replace("","", """").toInteger()",Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+out.println(QuantityNew),Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+"UnitPrice = getText(findTestObject(""Object Repository/PartnerQuotePageandEditlines/ListUnitPriceValue""))",Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.169s,PASSED
+"UnitPrices = UnitPrice.split("" "")[0]",Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.008s,PASSED
+out.println(UnitPrices),Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+"ListUnitPrice = replace("","", """").toInteger()",Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+out.println(ListUnitPrice),Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+"Subscription = getAttribute(findTestObject(""Object Repository/PartnerQuotePageandEditlines/SubscriptionTerm""), ""value"")",Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.183s,PASSED
+"SubscriptionTerm = replace("","", """").toInteger()",Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+out.println(SubscriptionTerm),Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.000s,PASSED
+"click(findTestObject(""Object Repository/QuoteLineandQuote/SaveButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:12,0.311s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:56:12,2023-09-20 21:56:17,5.004s,PASSED
+WindowIndex = getWindowIndex(),Chrome 116.0.0.0,,,2023-09-20 21:56:17,2023-09-20 21:56:17,0.000s,PASSED
+out.println(WindowIndex),Chrome 116.0.0.0,,,2023-09-20 21:56:17,2023-09-20 21:56:17,0.000s,PASSED
+switchToWindowIndex(2),Chrome 116.0.0.0,,,2023-09-20 21:56:17,2023-09-20 21:56:17,0.053s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/PartnerAgreementContract/ContractWordValidation""), 30)",Chrome 116.0.0.0,,,2023-09-20 21:56:17,2023-09-20 21:56:18,0.565s,PASSED
+refresh(),Chrome 116.0.0.0,,,2023-09-20 21:56:18,2023-09-20 21:56:18,0.025s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/DetailsTab""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:18,2023-09-20 21:56:27,8.792s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/EditStatusField""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:27,2023-09-20 21:56:29,2.329s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:56:29,2023-09-20 21:56:34,5.019s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/StatusFieldDraft""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:34,2023-09-20 21:56:35,0.499s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:56:35,2023-09-20 21:56:40,5.014s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/StatusFieldActivated""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:40,2023-09-20 21:56:40,0.512s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/SaveButtonOnContract""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:40,2023-09-20 21:56:41,0.499s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/Start Date Field""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:41,2023-09-20 21:56:42,0.889s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/StartDate Input""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:42,2023-09-20 21:56:42,0.876s,PASSED
+"setText(findTestObject(""Object Repository/PartnerAgreementContract/StartDate Input""), StartDate_PartnerContract)",Chrome 116.0.0.0,,,2023-09-20 21:56:42,2023-09-20 21:56:44,1.124s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:56:44,2023-09-20 21:56:49,5.009s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/SaveButtonOnContract""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:49,2023-09-20 21:56:49,0.523s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/EndClientCancellation""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:49,2023-09-20 21:56:50,0.607s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/EndClientCancellationInput""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:50,2023-09-20 21:56:51,0.831s,PASSED
+"setText(findTestObject(""Object Repository/PartnerAgreementContract/EndClientCancellationInput""), EndClientCancellation)",Chrome 116.0.0.0,,,2023-09-20 21:56:51,2023-09-20 21:56:52,1.019s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-20 21:56:52,2023-09-20 21:56:57,5.012s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/PartnerAgreementContract/SaveButtonOnContract""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:57,2023-09-20 21:56:57,0.440s,PASSED
+switchToWindowIndex(2),Chrome 116.0.0.0,,,2023-09-20 21:56:57,2023-09-20 21:56:57,0.029s,PASSED
+"scrollToElement(findTestObject(""Object Repository/PartnerQuotePageandEditlines/StatusField""), 20)",Chrome 116.0.0.0,,,2023-09-20 21:56:57,2023-09-20 21:57:29,31.564s,FAILED

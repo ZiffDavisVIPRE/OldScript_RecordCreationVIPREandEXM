@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EditSelectedProduct-Clickproduct</name>
+   <tag></tag>
+   <elementGuidId>8d8f7db4-3e5a-4ded-9e01-4a19bc1380ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@data-aura-class=&quot;forceInlineEditCell&quot;]//a[@data-refid=&quot;recordId&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DirectAccount-DirectCustomerContract-ExcelMicro-User,,,,2023-10-19 19:08:28,2023-10-19 19:08:34,5.207s,FAILED
+,,,,,,,
+Test Cases/LoginasExcelMicroUser,,,,2023-10-19 19:08:29,2023-10-19 19:08:32,3.507s,FAILED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",,,,2023-10-19 19:08:29,2023-10-19 19:08:32,3.225s,FAILED
+,,,,,,,
+Test Cases/CreatingNewDirectAccount-ExcelMicro,,,,2023-10-19 19:08:32,2023-10-19 19:08:32,0.383s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/ExcelMicroSalesElement""), 30)",,,,2023-10-19 19:08:32,2023-10-19 19:08:32,0.067s,FAILED
+,,,,,,,
+Test Cases/Account - Primary Billing Contact,,,,2023-10-19 19:08:32,2023-10-19 19:08:33,0.272s,FAILED
+"scrollToElement(findTestObject(""Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/PrimaryBillingContact""), 20)",,,,2023-10-19 19:08:33,2023-10-19 19:08:33,0.044s,FAILED
+,,,,,,,
+Test Cases/CreatingNewContact-User,,,,2023-10-19 19:08:33,2023-10-19 19:08:33,0.262s,FAILED
+"scrollToPosition(0, 0, STOP_ON_FAILURE)",,,,2023-10-19 19:08:33,2023-10-19 19:08:33,0.023s,FAILED
+,,,,,,,
+Test Cases/DirectQuoteCreation-ExcelMicro,,,,2023-10-19 19:08:33,2023-10-19 19:08:33,0.286s,FAILED
+"click(findTestObject(""Object Repository/DirectQuoteCreationObject/NewDirectQuoteButton""))",,,,2023-10-19 19:08:33,2023-10-19 19:08:33,0.042s,FAILED
+,,,,,,,
+Test Cases/AddingQuoteLine,,,,2023-10-19 19:08:33,2023-10-19 19:08:34,0.268s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/EditLineButton""), 20)",,,,2023-10-19 19:08:33,2023-10-19 19:08:34,0.037s,FAILED

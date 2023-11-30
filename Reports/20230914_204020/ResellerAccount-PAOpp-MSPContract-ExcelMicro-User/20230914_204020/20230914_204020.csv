@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ResellerAccount-PAOpp-MSPContract-ExcelMicro-User,Chrome 116.0.0.0,,,2023-09-14 20:40:24,2023-09-14 20:42:44,2m - 19.921s,FAILED
+,,,,,,,
+Test Cases/LoginasExcelMicroUser,Chrome 116.0.0.0,,,2023-09-14 20:40:24,2023-09-14 20:41:03,39.095s,FAILED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-09-14 20:40:25,2023-09-14 20:40:54,29.290s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-14 20:40:54,2023-09-14 20:40:56,1.665s,PASSED
+sleep(2000),Chrome 116.0.0.0,,,2023-09-14 20:40:56,2023-09-14 20:40:58,2.013s,PASSED
+"click(findTestObject(""Object Repository/UserLoginSearch/SearchButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-14 20:40:58,2023-09-14 20:40:59,1.753s,PASSED
+"sendKeys(findTestObject(""Object Repository/UserLoginSearch/SearchInput""), LoginUserNameExcelMicro)",Chrome 116.0.0.0,,,2023-09-14 20:40:59,2023-09-14 20:41:03,3.942s,FAILED
+,,,,,,,
+Test Cases/CreatingResellerAccount-User-ExcelMicro,Chrome 116.0.0.0,,,2023-09-14 20:41:03,2023-09-14 20:41:45,41.542s,FAILED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-14 20:41:04,2023-09-14 20:41:09,5.012s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/ExcelMicroSalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-14 20:41:09,2023-09-14 20:41:45,35.728s,FAILED
+,,,,,,,
+Test Cases/CreatePAOpp-User-ExcelMicro-ResellerAccount,Chrome 116.0.0.0,,,2023-09-14 20:41:45,2023-09-14 20:42:18,33.477s,FAILED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/PAOpportunityButton-ExcelMicro""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-14 20:41:45,2023-09-14 20:42:18,33.156s,FAILED
+,,,,,,,
+Test Cases/MSPContract-ExcelMicroUser-ResellerAccount,Chrome 116.0.0.0,,,2023-09-14 20:42:18,2023-09-14 20:42:44,25.395s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation""), 20)",Chrome 116.0.0.0,,,2023-09-14 20:42:19,2023-09-14 20:42:44,24.854s,FAILED

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ContactLinkObject</name>
+   <tag></tag>
+   <elementGuidId>7acf40d9-faa3-49aa-85f7-b9257f6fd699</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@class='rlql-relatedListQuickLink']//div[@class='slds-media']//div[@class='slds-grid']//span[contains(text(),'Contacts')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

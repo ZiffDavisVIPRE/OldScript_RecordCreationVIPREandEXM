@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DirectAccount-DirectCustomerContract-SystemAdmin,Chrome 116.0.0.0,,,2023-08-29 22:41:35,2023-08-29 22:44:52,3m - 16.712s,ERROR
+,,,,,,,
+Test Cases/LogintoSalesforce-Admin,Chrome 116.0.0.0,This testcase is to successfully login to salesforce using scripts.,,2023-08-29 22:41:35,2023-08-29 22:42:04,28.623s,PASSED
+openBrowser(LoginURL),Chrome 116.0.0.0,,,2023-08-29 22:41:36,2023-08-29 22:41:47,11.206s,PASSED
+maximizeWindow(),Chrome 116.0.0.0,,,2023-08-29 22:41:47,2023-08-29 22:41:47,0.153s,PASSED
+"setText(findTestObject(""LoginPage/Username""), UserName)",Chrome 116.0.0.0,,,2023-08-29 22:41:47,2023-08-29 22:41:48,1.395s,PASSED
+"setText(findTestObject(""LoginPage/Password""), Password)",Chrome 116.0.0.0,,,2023-08-29 22:41:48,2023-08-29 22:41:49,0.711s,PASSED
+"click(findTestObject(""LoginPage/LoginButton""))",Chrome 116.0.0.0,,,2023-08-29 22:41:49,2023-08-29 22:42:04,14.892s,PASSED
+,,,,,,,
+Test Cases/CreatingNewDirectAccount-VIPRE,Chrome 116.0.0.0,,,2023-08-29 22:42:04,2023-08-29 22:43:13,1m - 9.118s,ERROR
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-08-29 22:42:04,2023-08-29 22:42:08,3.481s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/AccountObject/AccountsTab""), 30)",Chrome 116.0.0.0,,,2023-08-29 22:42:08,2023-08-29 22:42:13,5.242s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/AccountObject/NewButtononAccount""), 30)",Chrome 116.0.0.0,,,2023-08-29 22:42:13,2023-08-29 22:43:13,1m - 0.186s,ERROR
+,,,,,,,
+Test Cases/CreatingNewContact-Admin,Chrome 116.0.0.0,,,2023-08-29 22:43:13,2023-08-29 22:43:48,34.642s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/ContactObject/ContactLinkObject""))",Chrome 116.0.0.0,,,2023-08-29 22:43:14,2023-08-29 22:43:48,34.272s,FAILED
+,,,,,,,
+Test Cases/DirectQuoteCreation-VIPRE,Chrome 116.0.0.0,,,2023-08-29 22:43:48,2023-08-29 22:44:30,42.030s,FAILED
+"click(findTestObject(""Object Repository/DirectQuoteCreationObject/NewDirectQuoteButton""))",Chrome 116.0.0.0,,,2023-08-29 22:43:48,2023-08-29 22:44:30,41.699s,FAILED
+,,,,,,,
+Test Cases/AddingQuoteLine,Chrome 116.0.0.0,,,2023-08-29 22:44:30,2023-08-29 22:44:52,22.025s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/EditLineButton""), 20)",Chrome 116.0.0.0,,,2023-08-29 22:44:30,2023-08-29 22:44:52,21.672s,FAILED

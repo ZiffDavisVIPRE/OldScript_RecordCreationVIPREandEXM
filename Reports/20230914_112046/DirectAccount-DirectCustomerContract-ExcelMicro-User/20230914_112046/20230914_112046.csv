@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DirectAccount-DirectCustomerContract-ExcelMicro-User,Chrome 116.0.0.0,,,2023-09-14 11:20:49,2023-09-14 11:23:35,2m - 45.596s,FAILED
+,,,,,,,
+Test Cases/LoginasExcelMicroUser,Chrome 116.0.0.0,,,2023-09-14 11:20:49,2023-09-14 11:21:25,35.352s,FAILED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-09-14 11:20:50,2023-09-14 11:21:17,26.775s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-14 11:21:17,2023-09-14 11:21:19,2.418s,PASSED
+sleep(2000),Chrome 116.0.0.0,,,2023-09-14 11:21:19,2023-09-14 11:21:21,2.014s,PASSED
+"click(findTestObject(""Object Repository/UserLoginSearch/SearchButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-14 11:21:21,2023-09-14 11:21:22,0.719s,PASSED
+"sendKeys(findTestObject(""Object Repository/UserLoginSearch/SearchInput""), LoginUserNameExcelMicro)",Chrome 116.0.0.0,,,2023-09-14 11:21:22,2023-09-14 11:21:25,3.124s,FAILED
+,,,,,,,
+Test Cases/CreatingNewDirectAccount-ExcelMicro,Chrome 116.0.0.0,,,2023-09-14 11:21:25,2023-09-14 11:22:00,35.589s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/ExcelMicroSalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-14 11:21:25,2023-09-14 11:22:00,35.328s,FAILED
+,,,,,,,
+Test Cases/CreatingNewContact-User,Chrome 116.0.0.0,,,2023-09-14 11:22:00,2023-09-14 11:22:36,35.518s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/ContactObject/ContactLinkObject""))",Chrome 116.0.0.0,,,2023-09-14 11:22:01,2023-09-14 11:22:36,35.233s,FAILED
+,,,,,,,
+Test Cases/DirectQuoteCreation-ExcelMicro,Chrome 116.0.0.0,,,2023-09-14 11:22:36,2023-09-14 11:23:10,33.546s,FAILED
+"click(findTestObject(""Object Repository/DirectQuoteCreationObject/NewDirectQuoteButton""))",Chrome 116.0.0.0,,,2023-09-14 11:22:36,2023-09-14 11:23:10,33.337s,FAILED
+,,,,,,,
+Test Cases/AddingQuoteLine,Chrome 116.0.0.0,,,2023-09-14 11:23:10,2023-09-14 11:23:35,25.340s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/EditLineButton""), 20)",Chrome 116.0.0.0,,,2023-09-14 11:23:10,2023-09-14 11:23:35,25.055s,FAILED

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ResellerAccount-PAOpp-MSPContract-ExcelMicro-User,Chrome 116.0.0.0,,,2023-09-19 12:46:59,2023-09-19 12:49:23,2m - 23.784s,FAILED
+,,,,,,,
+Test Cases/LoginasExcelMicroUser,Chrome 116.0.0.0,,,2023-09-19 12:46:59,2023-09-19 12:47:50,50.829s,FAILED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-09-19 12:46:59,2023-09-19 12:47:16,17.142s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-19 12:47:16,2023-09-19 12:47:50,33.408s,FAILED
+,,,,,,,
+Test Cases/CreatingResellerAccount-User-ExcelMicro,Chrome 116.0.0.0,,,2023-09-19 12:47:50,2023-09-19 12:48:29,38.855s,FAILED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-19 12:47:50,2023-09-19 12:47:55,5.012s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/ExcelMicroSalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-19 12:47:55,2023-09-19 12:48:29,33.416s,FAILED
+,,,,,,,
+Test Cases/CreatePAOpp-User-ExcelMicro-ResellerAccount,Chrome 116.0.0.0,,,2023-09-19 12:48:29,2023-09-19 12:49:01,31.824s,FAILED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/PAOpportunityButton-ExcelMicro""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-19 12:48:29,2023-09-19 12:49:01,31.448s,FAILED
+,,,,,,,
+Test Cases/MSPContract-ExcelMicroUser-ResellerAccount,Chrome 116.0.0.0,,,2023-09-19 12:49:01,2023-09-19 12:49:23,22.028s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation""), 20)",Chrome 116.0.0.0,,,2023-09-19 12:49:01,2023-09-19 12:49:23,21.495s,FAILED

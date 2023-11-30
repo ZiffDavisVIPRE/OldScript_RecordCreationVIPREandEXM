@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>DetailsTab</name>
+   <tag></tag>
+   <elementGuidId>0e85487b-dea5-4cbc-8f08-6f7440100738</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//flexipage-record-home-with-subheader-template-desktop2//lightning-tab-bar//ul[@class=&quot;slds-tabs_default__nav&quot;]//li//a[text()='Details']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

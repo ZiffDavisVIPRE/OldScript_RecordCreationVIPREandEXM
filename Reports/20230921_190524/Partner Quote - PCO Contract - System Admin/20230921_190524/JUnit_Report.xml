@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Partner Quote - PCO Contract - System Admin" time="357.977" tests="8" failures="1" errors="0">
+   <testsuite name="Partner Quote - PCO Contract - System Admin" tests="8" failures="1" errors="0" time="357.977" skipped="0" timestamp="2023-09-21 19:05:29" hostname="GayathriKumaresan - LT-NB-571" id="Test Suites/Partner Quote - PCO Contract - System Admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230921_190524\\Partner Quote - PCO Contract - System Admin\\20230921_190524"/>
+         <property name="logFiles" value="C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230921_190524\\Partner Quote - PCO Contract - System Admin\\20230921_190524\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230921_190524\\Partner Quote - PCO Contract - System Admin\\20230921_190524\\1695303686851.png"/>
+         <property name="hostName" value="GayathriKumaresan - LT-NB-571"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.57"/>
+         <property name="sessionId" value="60aacd5f7137c179a781d1e2b89687b2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LogintoSalesforce-Admin" time="19.002" classname="Test Cases/LogintoSalesforce-Admin" status="PASSED">
+         <system-out><![CDATA[2023-09-21 19:05:29 - [TEST_CASE][PASSED] - Test Cases/LogintoSalesforce-Admin: Test Cases/LogintoSalesforce-Admin
+
+2023-09-21 19:05:29 - [TEST_STEP][PASSED] - openBrowser(LoginURL): Browser is opened with url: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/page/home'
+
+2023-09-21 19:05:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-21 19:05:31 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2023-09-21 19:05:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-21 19:05:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/page/home'
+
+2023-09-21 19:05:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-21 19:05:39 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-21 19:05:39 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/Username"), UserName): Text 'eu_gayathri.kumaresan@listertechnologies.com.qa' is set on object 'Object Repository/LoginPage/Username'
+
+2023-09-21 19:05:40 - [MESSAGE][PASSED] - Text 'eu_gayathri.kumaresan@listertechnologies.com.qa' is set on object 'Object Repository/LoginPage/Username'
+
+2023-09-21 19:05:40 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/Password"), Password): Text 'Lister@123456' is set on object 'Object Repository/LoginPage/Password'
+
+2023-09-21 19:05:41 - [MESSAGE][PASSED] - Text 'Lister@123456' is set on object 'Object Repository/LoginPage/Password'
+
+2023-09-21 19:05:41 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/LoginButton")): Object: 'Object Repository/LoginPage/LoginButton' is clicked on
+
+2023-09-21 19:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/LoginButton' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreatingResellerAccount-VIPRE-Admin" time="34.935" classname="Test Cases/CreatingResellerAccount-VIPRE-Admin" status="PASSED">
+         <system-out><![CDATA[2023-09-21 19:05:48 - [TEST_CASE][PASSED] - Test Cases/CreatingResellerAccount-VIPRE-Admin: Test Cases/CreatingResellerAccount-VIPRE-Admin
+
+2023-09-21 19:05:48 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:05:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountCreationPage/VIPRESalesElement"), 30): Object 'Object Repository/AccountCreationPage/VIPRESalesElement' is present
+
+2023-09-21 19:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/AccountCreationPage/VIPRESalesElement' is present
+
+2023-09-21 19:05:56 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/AccountObject/AccountsTab"), 30): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:05:56 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:05:56 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/AccountObject/NewButtononAccount"), 30): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:05:58 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountRecordTypes/Reseller")): Object: 'Object Repository/AccountRecordTypes/Reseller' is clicked on
+
+2023-09-21 19:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountRecordTypes/Reseller' is clicked on
+
+2023-09-21 19:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountRecordTypes/NextButton")): Object: 'Object Repository/AccountRecordTypes/NextButton' is clicked on
+
+2023-09-21 19:06:00 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountRecordTypes/NextButton' is clicked on
+
+2023-09-21 19:06:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountRecordTypes/ResellerTextVerify"), 20, STOP_ON_FAILURE): Object 'Object Repository/AccountRecordTypes/ResellerTextVerify' is present
+
+2023-09-21 19:06:04 - [MESSAGE][PASSED] - Object 'Object Repository/AccountRecordTypes/ResellerTextVerify' is present
+
+2023-09-21 19:06:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AccountCreationPage/AccountName"), AccountName_Reseller_VIPRE): Keys 'TA_Reseller_VIPRE_001' sent to object: 'Object Repository/AccountCreationPage/AccountName'
+
+2023-09-21 19:06:05 - [MESSAGE][PASSED] - Keys 'TA_Reseller_VIPRE_001' sent to object: 'Object Repository/AccountCreationPage/AccountName'
+
+2023-09-21 19:06:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/AccountCreationPage/AccountCurrencyLabel"), 20): Scroll to object 'Object Repository/AccountCreationPage/AccountCurrencyLabel' successfully
+
+2023-09-21 19:06:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AccountCreationPage/AccountCurrencyLabel' successfully
+
+2023-09-21 19:06:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/AccountCreationPage/BillingCountryLabel"), 20): Scroll to object 'Object Repository/AccountCreationPage/BillingCountryLabel' successfully
+
+2023-09-21 19:06:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AccountCreationPage/BillingCountryLabel' successfully
+
+2023-09-21 19:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/BillingCountryNone")): Object: 'Object Repository/AccountCreationPage/BillingCountryNone' is clicked on
+
+2023-09-21 19:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/BillingCountryNone' is clicked on
+
+2023-09-21 19:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/BillingCountryBahrain")): Object: 'Object Repository/AccountCreationPage/BillingCountryBahrain' is clicked on
+
+2023-09-21 19:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/BillingCountryBahrain' is clicked on
+
+2023-09-21 19:06:07 - [TEST_STEP][PASSED] - setText(findTestObject("AccountCreationPage/BillingStreet"), BillingStreet): Text '234, Sidney Street' is set on object 'Object Repository/AccountCreationPage/BillingStreet'
+
+2023-09-21 19:06:08 - [MESSAGE][PASSED] - Text '234, Sidney Street' is set on object 'Object Repository/AccountCreationPage/BillingStreet'
+
+2023-09-21 19:06:08 - [TEST_STEP][PASSED] - setText(findTestObject("AccountCreationPage/BillingCity"), BillingCity): Text 'Toronto' is set on object 'Object Repository/AccountCreationPage/BillingCity'
+
+2023-09-21 19:06:09 - [MESSAGE][PASSED] - Text 'Toronto' is set on object 'Object Repository/AccountCreationPage/BillingCity'
+
+2023-09-21 19:06:09 - [TEST_STEP][PASSED] - setText(findTestObject("AccountCreationPage/PostalCode"), PostalCode): Text '12AB3N' is set on object 'Object Repository/AccountCreationPage/PostalCode'
+
+2023-09-21 19:06:10 - [MESSAGE][PASSED] - Text '12AB3N' is set on object 'Object Repository/AccountCreationPage/PostalCode'
+
+2023-09-21 19:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("AccountCreationPage/CompanyRegistrationNo"), CompanyRegistrationNumber): Text 'WA12345Test' is set on object 'Object Repository/AccountCreationPage/CompanyRegistrationNo'
+
+2023-09-21 19:06:11 - [MESSAGE][PASSED] - Text 'WA12345Test' is set on object 'Object Repository/AccountCreationPage/CompanyRegistrationNo'
+
+2023-09-21 19:06:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/AccountCreationPage/SalesTerritoryLabel"), 20): Scroll to object 'Object Repository/AccountCreationPage/SalesTerritoryLabel' successfully
+
+2023-09-21 19:06:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AccountCreationPage/SalesTerritoryLabel' successfully
+
+2023-09-21 19:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/SalesTerritoryNone")): Object: 'Object Repository/AccountCreationPage/SalesTerritoryNone' is clicked on
+
+2023-09-21 19:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/SalesTerritoryNone' is clicked on
+
+2023-09-21 19:06:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/SalesTerritoryValue", ["value":SalesTerritory_VIPRE])): Object: 'Object Repository/AccountCreationPage/SalesTerritoryValue' is clicked on
+
+2023-09-21 19:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/SalesTerritoryValue' is clicked on
+
+2023-09-21 19:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/SaveButton")): Object: 'Object Repository/AccountCreationPage/SaveButton' is clicked on
+
+2023-09-21 19:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/SaveButton' is clicked on
+
+2023-09-21 19:06:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountCreationPage/AccountPageAppear"), 30): Object 'Object Repository/AccountCreationPage/AccountPageAppear' is present
+
+2023-09-21 19:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/AccountCreationPage/AccountPageAppear' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreatePartnerAcquisitionOpportunity-Admin" time="22.999" classname="Test Cases/CreatePartnerAcquisitionOpportunity-Admin" status="PASSED">
+         <system-out><![CDATA[2023-09-21 19:06:23 - [TEST_CASE][PASSED] - Test Cases/CreatePartnerAcquisitionOpportunity-Admin: Test Cases/CreatePartnerAcquisitionOpportunity-Admin
+
+2023-09-21 19:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/DropDownMenuonAccount"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/DropDownMenuonAccount' is clicked on
+
+2023-09-21 19:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/DropDownMenuonAccount' is clicked on
+
+2023-09-21 19:06:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/PAOpportunity-VIPRE"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/PAOpportunity-VIPRE' is clicked on
+
+2023-09-21 19:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/PAOpportunity-VIPRE' is clicked on
+
+2023-09-21 19:06:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PartnerAcquisitionCreation/SalesTerritoryLabel"), 20, STOP_ON_FAILURE): Scroll to object 'Object Repository/PartnerAcquisitionCreation/SalesTerritoryLabel' successfully
+
+2023-09-21 19:06:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PartnerAcquisitionCreation/SalesTerritoryLabel' successfully
+
+2023-09-21 19:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/SalesTerritoryNone"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/SalesTerritoryNone' is clicked on
+
+2023-09-21 19:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/SalesTerritoryNone' is clicked on
+
+2023-09-21 19:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/SalesTerritoryValue", ["value":SalesTerritory_VIPRE]), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/SalesTerritoryValue' is clicked on
+
+2023-09-21 19:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/SalesTerritoryValue' is clicked on
+
+2023-09-21 19:06:27 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PartnerAcquisitionCreation/BillingEntityLabel"), 20, STOP_ON_FAILURE): Scroll to object 'Object Repository/PartnerAcquisitionCreation/BillingEntityLabel' successfully
+
+2023-09-21 19:06:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PartnerAcquisitionCreation/BillingEntityLabel' successfully
+
+2023-09-21 19:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/BillingEntityNone"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/BillingEntityNone' is clicked on
+
+2023-09-21 19:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/BillingEntityNone' is clicked on
+
+2023-09-21 19:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/BillingEntityValue", ["value":BillingEntity_VIPRE]), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/BillingEntityValue' is clicked on
+
+2023-09-21 19:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/BillingEntityValue' is clicked on
+
+2023-09-21 19:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/CloseDateBox"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/CloseDateBox' is clicked on
+
+2023-09-21 19:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/CloseDateBox' is clicked on
+
+2023-09-21 19:06:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PartnerAcquisitionCreation/CloseDateBox"), CloseDate, STOP_ON_FAILURE): Text '31/07/2023' is set on object 'Object Repository/PartnerAcquisitionCreation/CloseDateBox'
+
+2023-09-21 19:06:30 - [MESSAGE][PASSED] - Text '31/07/2023' is set on object 'Object Repository/PartnerAcquisitionCreation/CloseDateBox'
+
+2023-09-21 19:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/SaveButton"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/SaveButton' is clicked on
+
+2023-09-21 19:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/SaveButton' is clicked on
+
+2023-09-21 19:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/ClickOpportunities"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/ClickOpportunities' is clicked on
+
+2023-09-21 19:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/ClickOpportunities' is clicked on
+
+2023-09-21 19:06:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerAcquisitionCreation/OpportunityTextVerify"), 30, STOP_ON_FAILURE): Object 'Object Repository/PartnerAcquisitionCreation/OpportunityTextVerify' is present
+
+2023-09-21 19:06:39 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerAcquisitionCreation/OpportunityTextVerify' is present
+
+2023-09-21 19:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/ClickonCreatedOpportunity", ["value":AccountName_Reseller_VIPRE]), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/ClickonCreatedOpportunity' is clicked on
+
+2023-09-21 19:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/ClickonCreatedOpportunity' is clicked on
+
+2023-09-21 19:06:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerAcquisitionCreation/PAOppPageVerify", ["value":AccountName_Reseller_VIPRE]), 20, STOP_ON_FAILURE): Object 'Object Repository/PartnerAcquisitionCreation/PAOppPageVerify' is present
+
+2023-09-21 19:06:44 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerAcquisitionCreation/PAOppPageVerify' is present
+
+2023-09-21 19:06:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerAcquisitionCreation/PartnerModelValidationMsg"), 20, STOP_ON_FAILURE): Object 'Object Repository/PartnerAcquisitionCreation/PartnerModelValidationMsg' is present
+
+2023-09-21 19:06:44 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerAcquisitionCreation/PartnerModelValidationMsg' is present
+
+2023-09-21 19:06:44 - [TEST_STEP][PASSED] - sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ResellerPartnerContract-SystemAdmin" time="169.732" classname="Test Cases/ResellerPartnerContract-SystemAdmin" status="PASSED">
+         <system-out><![CDATA[2023-09-21 19:06:46 - [TEST_CASE][PASSED] - Test Cases/ResellerPartnerContract-SystemAdmin: Test Cases/ResellerPartnerContract-SystemAdmin
+
+2023-09-21 19:06:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelValidationMessageRevalidate"), 20): Object 'Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelValidationMessageRevalidate' is present
+
+2023-09-21 19:06:47 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelValidationMessageRevalidate' is present
+
+2023-09-21 19:06:47 - [TEST_STEP][PASSED] - MandatoryFields = getText(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields")): Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Partner Model'
+
+2023-09-21 19:06:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Partner Model'
+
+2023-09-21 19:06:47 - [TEST_STEP][PASSED] - out.println("Fields:" + MandatoryFields): null
+
+2023-09-21 19:06:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/PartnerModel/QualificationElement"), 20): Scroll to object 'Object Repository/PAOppMandatoryField/PartnerModel/QualificationElement' successfully
+
+2023-09-21 19:06:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/PartnerModel/QualificationElement' successfully
+
+2023-09-21 19:06:47 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelEdit"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:50 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:50 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:06:55 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelNone"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:55 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:55 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PartnerModel/PartnerModelValues", ["value":ResellerPartnerModel]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:56 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:56 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Accreditation/AccreditationNone"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:56 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:56 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Accreditation/AccreditationValues", ["value":ResellerAccreditationLevel]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:57 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:57 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:57 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:06:57 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:07:02 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:03 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation' is present
+
+2023-09-21 19:07:04 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation' is present
+
+2023-09-21 19:07:04 - [TEST_STEP][PASSED] - scrollToPosition(0, 3500): Browser is scrolled to position x = 0, y = 3500
+
+2023-09-21 19:07:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 3500
+
+2023-09-21 19:07:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton' is present
+
+2023-09-21 19:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton' is present
+
+2023-09-21 19:07:06 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:06 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/PriceBookHeader-VIPRE"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/PriceBookHeader-VIPRE' is present
+
+2023-09-21 19:07:07 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/PriceBookHeader-VIPRE' is present
+
+2023-09-21 19:07:07 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/PAProductSelection", ["value":PAProducts]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:08 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:08 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/NextButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:09 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductVerification"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductVerification' is present
+
+2023-09-21 19:07:11 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductVerification' is present
+
+2023-09-21 19:07:11 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/ClickSalePrice"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:11 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/SalesPriceInput"), SalePrice): Text '25' is set on object 'Object Repository/PAOppMandatoryField/AddandEditProducts/SalesPriceInput'
+
+2023-09-21 19:07:12 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/PAOppMandatoryField/AddandEditProducts/SalesPriceInput'
+
+2023-09-21 19:07:12 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/ClickEditQuantity"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:12 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput"), Quantity): Keys '50' sent to object: 'Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput'
+
+2023-09-21 19:07:13 - [MESSAGE][PASSED] - Keys '50' sent to object: 'Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput'
+
+2023-09-21 19:07:13 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/ClickLineDescription"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:13 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:13 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductSaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:14 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:14 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-21 19:07:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): Scroll to object 'Object Repository/PAOppMandatoryField/RevalidateButton' successfully
+
+2023-09-21 19:07:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/RevalidateButton' successfully
+
+2023-09-21 19:07:19 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-21 19:07:20 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:21 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractValidation"), 20): Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractValidation' is present
+
+2023-09-21 19:07:23 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractValidation' is present
+
+2023-09-21 19:07:23 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftcontractButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:23 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractScreenValidation"), 20): Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractScreenValidation' is present
+
+2023-09-21 19:07:25 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractScreenValidation' is present
+
+2023-09-21 19:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-AnnualSalesTarget"), AnnualSalesTarget): Text '5000' is set on object 'Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-AnnualSalesTarget'
+
+2023-09-21 19:07:26 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-AnnualSalesTarget'
+
+2023-09-21 19:07:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-MinimumOrderValue"), MinimumOrderValue): Text '50' is set on object 'Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-MinimumOrderValue'
+
+2023-09-21 19:07:26 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/PAOppMandatoryField/CreateDraftContract/ResellerPartner-MinimumOrderValue'
+
+2023-09-21 19:07:26 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractNext"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:27 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractFinishButton"), 30): Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractFinishButton' is present
+
+2023-09-21 19:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractFinishButton' is present
+
+2023-09-21 19:07:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractFinishButton"), 20): Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractFinishButton' is present
+
+2023-09-21 19:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractFinishButton' is present
+
+2023-09-21 19:07:33 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/CreateDraftContract/CreateDraftContractFinishButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:34 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:34 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:37 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/MandatoryFieldMsgs"), 20): Object 'Object Repository/PAOppMandatoryField/MandatoryField/MandatoryFieldMsgs' is present
+
+2023-09-21 19:07:39 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/MandatoryField/MandatoryFieldMsgs' is present
+
+2023-09-21 19:07:39 - [TEST_STEP][PASSED] - MandatoryFields = getText(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields")): Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Account: Primary Billing Contact'
+
+2023-09-21 19:07:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Account: Primary Billing Contact'
+
+2023-09-21 19:07:39 - [TEST_STEP][PASSED] - out.println(MandatoryFields.size()): null
+
+2023-09-21 19:07:39 - [TEST_STEP][PASSED] - out.println("Fields:" + MandatoryFields): null
+
+2023-09-21 19:07:39 - [TEST_STEP][PASSED] - URL = getAttribute(findTestObject("Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/AccountNameonPA"), "href"): Attribute 'href' of object 'Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/AccountNameonPA' is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view'
+
+2023-09-21 19:07:39 - [MESSAGE][PASSED] - Attribute 'href' of object 'Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/AccountNameonPA' is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view'
+
+2023-09-21 19:07:39 - [TEST_STEP][PASSED] - out.println("URL of the Account:" + URL): null
+
+2023-09-21 19:07:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/OpenInaNewTab"), ["Path":URL]): Call Test Case 'Test Cases/OpenInaNewTab' successfully
+
+2023-09-21 19:07:40 - [TEST_CASE][PASSED] - Test Cases/OpenInaNewTab: Test Cases/OpenInaNewTab
+
+2023-09-21 19:07:40 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Opportunity/006JX000006yPOHYA2/view'
+
+2023-09-21 19:07:40 - [MESSAGE][PASSED] - Current window's url is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Opportunity/006JX000006yPOHYA2/view'
+
+2023-09-21 19:07:40 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2023-09-21 19:07:40 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-09-21 19:07:40 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-09-21 19:07:40 - [TEST_STEP][PASSED] - js = driver: null
+
+2023-09-21 19:07:40 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2023-09-21 19:07:40 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2023-09-21 19:07:40 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-09-21 19:07:40 - [TEST_STEP][PASSED] - navigateToUrl(Path): Navigate to 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view' successfully
+
+2023-09-21 19:07:41 - [MESSAGE][PASSED] - Navigate to 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view' successfully
+
+2023-09-21 19:07:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OpenInaNewTab' successfully
+
+2023-09-21 19:07:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/PrimaryBillingContact"), 20): Scroll to object 'Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/PrimaryBillingContact' successfully
+
+2023-09-21 19:07:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/PrimaryBillingContact' successfully
+
+2023-09-21 19:07:48 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/PrimaryBillingContactEdit"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:49 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:49 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/PrimaryBillingContactInputField"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:50 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:50 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/PrimaryBilling-NewContact"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:51 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ContactObject/NewContactPopupScreen"), 20): Object 'Object Repository/ContactObject/NewContactPopupScreen' is present
+
+2023-09-21 19:07:52 - [MESSAGE][PASSED] - Object 'Object Repository/ContactObject/NewContactPopupScreen' is present
+
+2023-09-21 19:07:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ContactObject/VIPREContactRecordType")): Object: 'Object Repository/ContactObject/VIPREContactRecordType' is clicked on
+
+2023-09-21 19:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactObject/VIPREContactRecordType' is clicked on
+
+2023-09-21 19:07:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/ContactObject/NextButton")): Object: 'Object Repository/ContactObject/NextButton' is clicked on
+
+2023-09-21 19:07:53 - [MESSAGE][PASSED] - Object: 'Object Repository/ContactObject/NextButton' is clicked on
+
+2023-09-21 19:07:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/ContactObject/NewContactVIPREelement"), 20): Object 'Object Repository/ContactObject/NewContactVIPREelement' is present
+
+2023-09-21 19:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/ContactObject/NewContactVIPREelement' is present
+
+2023-09-21 19:07:55 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/SalutationLabel"), 20): Scroll to object 'Object Repository/PAOppMandatoryField/PrimaryContact/SalutationLabel' successfully
+
+2023-09-21 19:07:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/PrimaryContact/SalutationLabel' successfully
+
+2023-09-21 19:07:55 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/SalutationNone"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:56 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:56 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/SalutationValue", ["value":Salutation]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:56 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:07:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/FirstName"), FirstName): Text 'Gayathri' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/FirstName'
+
+2023-09-21 19:07:57 - [MESSAGE][PASSED] - Text 'Gayathri' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/FirstName'
+
+2023-09-21 19:07:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/Last Name"), LastName): Text 'K' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Last Name'
+
+2023-09-21 19:07:58 - [MESSAGE][PASSED] - Text 'K' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Last Name'
+
+2023-09-21 19:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/Account Name"), AccountName_Reseller_VIPRE): Text 'TA_Reseller_VIPRE_001' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Account Name'
+
+2023-09-21 19:07:59 - [MESSAGE][PASSED] - Text 'TA_Reseller_VIPRE_001' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Account Name'
+
+2023-09-21 19:07:59 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/AccountNameList", ["value":AccountName_Reseller_VIPRE]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:00 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/Email"), Email): Text 'g3us2009@gmail.com' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Email'
+
+2023-09-21 19:08:01 - [MESSAGE][PASSED] - Text 'g3us2009@gmail.com' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Email'
+
+2023-09-21 19:08:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/Phone"), PhoneNumber): Text '6187657897' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Phone'
+
+2023-09-21 19:08:02 - [MESSAGE][PASSED] - Text '6187657897' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Phone'
+
+2023-09-21 19:08:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/Title"), Title): Text 'Vice President' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Title'
+
+2023-09-21 19:08:03 - [MESSAGE][PASSED] - Text 'Vice President' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/Title'
+
+2023-09-21 19:08:03 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:03 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:03 - [TEST_STEP][PASSED] - sleep(10000): null
+
+2023-09-21 19:08:13 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Account-PrimaryBillingContact/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:14 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:14 - [TEST_STEP][PASSED] - sleep(10000): null
+
+2023-09-21 19:08:24 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2023-09-21 19:08:24 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-09-21 19:08:24 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-21 19:08:25 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:25 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:25 - [TEST_STEP][PASSED] - MandatoryFields = getText(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields")): Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Contact'
+
+2023-09-21 19:08:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Contact'
+
+2023-09-21 19:08:28 - [TEST_STEP][PASSED] - out.println("Fields:" + MandatoryFields): null
+
+2023-09-21 19:08:28 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/PrimaryContactField", ["value":MandatoryFields]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:28 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:28 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/PrimaryContactclick"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:29 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/PrimaryContactclick"), FirstName): Text 'Gayathri' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/PrimaryContactclick'
+
+2023-09-21 19:08:30 - [MESSAGE][PASSED] - Text 'Gayathri' is set on object 'Object Repository/PAOppMandatoryField/PrimaryContact/PrimaryContactclick'
+
+2023-09-21 19:08:30 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PrimaryContact/SelectListedContact", ["value":FirstName]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:32 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:32 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:33 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:33 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-21 19:08:34 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:36 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:36 - [TEST_STEP][PASSED] - MandatoryFields = getText(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields")): Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Ongoing Account Manager'
+
+2023-09-21 19:08:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Ongoing Account Manager'
+
+2023-09-21 19:08:38 - [TEST_STEP][PASSED] - out.println("Fields:" + MandatoryFields): null
+
+2023-09-21 19:08:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/OngoingAccountManagers/OngoingAccountManagerLabel", ["value":MandatoryFields]), 20): Scroll to object 'Object Repository/PAOppMandatoryField/OngoingAccountManagers/OngoingAccountManagerLabel' successfully
+
+2023-09-21 19:08:39 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/OngoingAccountManagers/OngoingAccountManagerLabel' successfully
+
+2023-09-21 19:08:39 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/OngoingAccountManagers/EditButtonOngoingManager"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:39 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/OngoingAccountManagers/InputOngoingManager"), LoginUserNameVIPRE): Text 'Fiete Marohn' is set on object 'Object Repository/PAOppMandatoryField/OngoingAccountManagers/InputOngoingManager'
+
+2023-09-21 19:08:40 - [MESSAGE][PASSED] - Text 'Fiete Marohn' is set on object 'Object Repository/PAOppMandatoryField/OngoingAccountManagers/InputOngoingManager'
+
+2023-09-21 19:08:40 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/OngoingAccountManagers/ClickOngoingManagerValue", ["value":MandatoryFields]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:42 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:42 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:42 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:42 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-21 19:08:43 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:46 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:46 - [TEST_STEP][PASSED] - MandatoryFields = getText(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields")): Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Resale Territory'
+
+2023-09-21 19:08:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Resale Territory'
+
+2023-09-21 19:08:48 - [TEST_STEP][PASSED] - out.println("Fields:" + MandatoryFields): null
+
+2023-09-21 19:08:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/Resale Territorys/ResaleTerritory", ["value":MandatoryFields]), 20): Scroll to object 'Object Repository/PAOppMandatoryField/Resale Territorys/ResaleTerritory' successfully
+
+2023-09-21 19:08:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/Resale Territorys/ResaleTerritory' successfully
+
+2023-09-21 19:08:48 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Resale Territorys/EditResaleTerritory"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:49 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/Resale Territorys/ResaleTerritoryInput"), SalesTerritory_VIPRE): Text 'Nordics' is set on object 'Object Repository/PAOppMandatoryField/Resale Territorys/ResaleTerritoryInput'
+
+2023-09-21 19:08:50 - [MESSAGE][PASSED] - Text 'Nordics' is set on object 'Object Repository/PAOppMandatoryField/Resale Territorys/ResaleTerritoryInput'
+
+2023-09-21 19:08:50 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Payment Method/PaymentMethodNone"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:50 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:50 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:51 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:51 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:54 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:54 - [TEST_STEP][PASSED] - MandatoryFields = getText(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields")): Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Payment Method'
+
+2023-09-21 19:08:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Payment Method'
+
+2023-09-21 19:08:56 - [TEST_STEP][PASSED] - out.println("Fields:" + MandatoryFields): null
+
+2023-09-21 19:08:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/Payment Method/PaymentMethodLabel", ["value":MandatoryFields]), 20): Scroll to object 'Object Repository/PAOppMandatoryField/Payment Method/PaymentMethodLabel' successfully
+
+2023-09-21 19:08:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/Payment Method/PaymentMethodLabel' successfully
+
+2023-09-21 19:08:57 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Payment Method/PaymentMethodEdit"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:58 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:58 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Payment Method/PaymentMethodNone"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:58 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:58 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/Payment Method/PaymentMethodValue", ["value":PaymentMethod]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:59 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:59 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:59 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:08:59 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:09:04 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:05 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:05 - [TEST_STEP][PASSED] - MandatoryFields = getText(findTestObject("Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields")): Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Pricing/Discount Information'
+
+2023-09-21 19:09:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/PAOppMandatoryField/MandatoryField/GetMandatoryFields' is: 'Pricing/Discount Information'
+
+2023-09-21 19:09:07 - [TEST_STEP][PASSED] - out.println("Fields:" + MandatoryFields): null
+
+2023-09-21 19:09:07 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PricingInformation/PricingTab"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:07 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:07 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PricingInformation/EditPricingInformation"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:08 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/PricingInformation/PricingInformationInput"), PricingInformation): Text 'WebSecurity-$0.09' is set on object 'Object Repository/PAOppMandatoryField/PricingInformation/PricingInformationInput'
+
+2023-09-21 19:09:10 - [MESSAGE][PASSED] - Text 'WebSecurity-$0.09' is set on object 'Object Repository/PAOppMandatoryField/PricingInformation/PricingInformationInput'
+
+2023-09-21 19:09:10 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/PricingInformation/DetailsTab"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:10 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:10 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:11 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:11 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-21 19:09:12 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:14 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/PAOutforSignatureValidationMsg"), 20): Object 'Object Repository/PAOppMandatoryField/PAOutforSignatureValidationMsg' is present
+
+2023-09-21 19:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/PAOutforSignatureValidationMsg' is present
+
+2023-09-21 19:09:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/SendPAforSignButton"), 20): Object 'Object Repository/PAOppMandatoryField/SendPAforSignButton' is present
+
+2023-09-21 19:09:16 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/SendPAforSignButton' is present
+
+2023-09-21 19:09:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/StartDate and Stage/StartDateField"), 20): Scroll to object 'Object Repository/PAOppMandatoryField/StartDate and Stage/StartDateField' successfully
+
+2023-09-21 19:09:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/StartDate and Stage/StartDateField' successfully
+
+2023-09-21 19:09:17 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/StartDate and Stage/StartDateEdit"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:17 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/StartDate and Stage/StartDateInput"), StartDate): Text '15/06/2023' is set on object 'Object Repository/PAOppMandatoryField/StartDate and Stage/StartDateInput'
+
+2023-09-21 19:09:18 - [MESSAGE][PASSED] - Text '15/06/2023' is set on object 'Object Repository/PAOppMandatoryField/StartDate and Stage/StartDateInput'
+
+2023-09-21 19:09:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/StartDate and Stage/Stage-SalesQualified"), 20): Scroll to object 'Object Repository/PAOppMandatoryField/StartDate and Stage/Stage-SalesQualified' successfully
+
+2023-09-21 19:09:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/StartDate and Stage/Stage-SalesQualified' successfully
+
+2023-09-21 19:09:19 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/StartDate and Stage/Stage-SalesQualified"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:19 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:19 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:09:24 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/StartDate and Stage/Stage-ClosedWon"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:24 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:24 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:25 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:25 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:09:30 - [TEST_STEP][PASSED] - scrollToPosition(0, 10): Browser is scrolled to position x = 0, y = 10
+
+2023-09-21 19:09:30 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 10
+
+2023-09-21 19:09:30 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:33 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/PACloseWonValidationMsg"), 20, STOP_ON_FAILURE): Object 'Object Repository/PAOppMandatoryField/PACloseWonValidationMsg' is present
+
+2023-09-21 19:09:36 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/PACloseWonValidationMsg' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ContractSelection-PA Opp" time="1.135" classname="Test Cases/ContractSelection-PA Opp" status="PASSED">
+         <system-out><![CDATA[2023-09-21 19:09:36 - [TEST_CASE][PASSED] - Test Cases/ContractSelection-PA Opp: Test Cases/ContractSelection-PA Opp
+
+2023-09-21 19:09:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/QuoteLineandQuote/ClickContract"), 20): Scroll to object 'Object Repository/QuoteLineandQuote/ClickContract' successfully
+
+2023-09-21 19:09:36 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/QuoteLineandQuote/ClickContract' successfully
+
+2023-09-21 19:09:36 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/QuoteLineandQuote/ClickContract"), 30): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:37 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PartnerContract-PartnerQuoteCreation" time="37.195" classname="Test Cases/PartnerContract-PartnerQuoteCreation" status="PASSED">
+         <system-out><![CDATA[2023-09-21 19:09:37 - [TEST_CASE][PASSED] - Test Cases/PartnerContract-PartnerQuoteCreation: Test Cases/PartnerContract-PartnerQuoteCreation
+
+2023-09-21 19:09:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerAgreementContract/ContractWordValidation"), 20): Object 'Object Repository/PartnerAgreementContract/ContractWordValidation' is present
+
+2023-09-21 19:09:41 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerAgreementContract/ContractWordValidation' is present
+
+2023-09-21 19:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAgreementContract/DetailsTab")): Object: 'Object Repository/PartnerAgreementContract/DetailsTab' is clicked on
+
+2023-09-21 19:09:41 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAgreementContract/DetailsTab' is clicked on
+
+2023-09-21 19:09:41 - [TEST_STEP][PASSED] - getText(findTestObject("Object Repository/PartnerAgreementContract/StatusField")): Text of object 'Object Repository/PartnerAgreementContract/StatusField' is: 'Active'
+
+2023-09-21 19:09:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/PartnerAgreementContract/StatusField' is: 'Active'
+
+2023-09-21 19:09:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/PartnerAgreementContract/StatusField"), "Active"): Actual text and expected text of test object 'Object Repository/PartnerAgreementContract/StatusField' are matched.
+
+2023-09-21 19:09:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PartnerAgreementContract/StatusField' are matched.
+
+2023-09-21 19:09:43 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerAgreementContract/NewQuoteButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:43 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerQuoteCreationScreen/NewQuoteValidation"), 20): Object 'Object Repository/PartnerQuoteCreationScreen/NewQuoteValidation' is present
+
+2023-09-21 19:09:44 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerQuoteCreationScreen/NewQuoteValidation' is present
+
+2023-09-21 19:09:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PartnerQuoteCreationScreen/EndClientInputBox"), 20): Scroll to object 'Object Repository/PartnerQuoteCreationScreen/EndClientInputBox' successfully
+
+2023-09-21 19:09:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PartnerQuoteCreationScreen/EndClientInputBox' successfully
+
+2023-09-21 19:09:45 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteCreationScreen/EndClientInputBox"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:45 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:45 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:09:50 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteCreationScreen/EndClient-NewAccount"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:51 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountObject/NewAccountTextVerify"), 20): Object 'Object Repository/AccountObject/NewAccountTextVerify' is present
+
+2023-09-21 19:09:52 - [MESSAGE][PASSED] - Object 'Object Repository/AccountObject/NewAccountTextVerify' is present
+
+2023-09-21 19:09:52 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/AccountRecordTypes/ClientOfReseller"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:53 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountRecordTypes/NextButton")): Object: 'Object Repository/AccountRecordTypes/NextButton' is clicked on
+
+2023-09-21 19:09:53 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountRecordTypes/NextButton' is clicked on
+
+2023-09-21 19:09:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountRecordTypes/ClientOfResellerTextVerify"), 20): Object 'Object Repository/AccountRecordTypes/ClientOfResellerTextVerify' is present
+
+2023-09-21 19:09:56 - [MESSAGE][PASSED] - Object 'Object Repository/AccountRecordTypes/ClientOfResellerTextVerify' is present
+
+2023-09-21 19:09:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CORAccountCreationPage/AccountNameInput"), COR_AccountName): Text 'COR_TA_Reseller_001' is set on object 'Object Repository/CORAccountCreationPage/AccountNameInput'
+
+2023-09-21 19:09:57 - [MESSAGE][PASSED] - Text 'COR_TA_Reseller_001' is set on object 'Object Repository/CORAccountCreationPage/AccountNameInput'
+
+2023-09-21 19:09:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CORAccountCreationPage/BillingcountryLabel"), 20): Scroll to object 'Object Repository/CORAccountCreationPage/BillingcountryLabel' successfully
+
+2023-09-21 19:09:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CORAccountCreationPage/BillingcountryLabel' successfully
+
+2023-09-21 19:09:57 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/CORAccountCreationPage/BillingCountryNone"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:58 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:58 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/CORAccountCreationPage/BillingCountryGreenland"), 30): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:58 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:09:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CORAccountCreationPage/BillingStreet"), COR_BillingStreet): Text '15, West Graham Street' is set on object 'Object Repository/CORAccountCreationPage/BillingStreet'
+
+2023-09-21 19:09:59 - [MESSAGE][PASSED] - Text '15, West Graham Street' is set on object 'Object Repository/CORAccountCreationPage/BillingStreet'
+
+2023-09-21 19:09:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CORAccountCreationPage/PostalCode"), COR_PostalCode): Text '12ER3W' is set on object 'Object Repository/CORAccountCreationPage/PostalCode'
+
+2023-09-21 19:10:00 - [MESSAGE][PASSED] - Text '12ER3W' is set on object 'Object Repository/CORAccountCreationPage/PostalCode'
+
+2023-09-21 19:10:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CORAccountCreationPage/BillingCity"), COR_BillingCity): Text 'Washington' is set on object 'Object Repository/CORAccountCreationPage/BillingCity'
+
+2023-09-21 19:10:01 - [MESSAGE][PASSED] - Text 'Washington' is set on object 'Object Repository/CORAccountCreationPage/BillingCity'
+
+2023-09-21 19:10:01 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/CORAccountCreationPage/SalesTerritoryLabel"), 20): Scroll to object 'Object Repository/CORAccountCreationPage/SalesTerritoryLabel' successfully
+
+2023-09-21 19:10:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/CORAccountCreationPage/SalesTerritoryLabel' successfully
+
+2023-09-21 19:10:01 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/CORAccountCreationPage/SalesTerritoryNone"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:02 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:02 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/CORAccountCreationPage/SalesTerritoryValue", ["value":SalesTerritory_VIPRE]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:02 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:02 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/CORAccountCreationPage/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:03 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:03 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:10:08 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteCreationScreen/PrimaryContactInputbox"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:08 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:08 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:10:13 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteCreationScreen/Select_Contact"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:14 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:14 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteCreationScreen/SaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:14 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PartnerContract-PartnerQuoteSelection" time="35.513" classname="Test Cases/PartnerContract-PartnerQuoteSelection" status="PASSED">
+         <system-out><![CDATA[2023-09-21 19:10:14 - [TEST_CASE][PASSED] - Test Cases/PartnerContract-PartnerQuoteSelection: Test Cases/PartnerContract-PartnerQuoteSelection
+
+2023-09-21 19:10:14 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:10:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerQuoteSelection/AccountNameLabelVerify"), 20): Object 'Object Repository/PartnerQuoteSelection/AccountNameLabelVerify' is present
+
+2023-09-21 19:10:29 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerQuoteSelection/AccountNameLabelVerify' is present
+
+2023-09-21 19:10:29 - [TEST_STEP][PASSED] - URL = getAttribute(findTestObject("Object Repository/PartnerQuoteSelection/ClickAccountFromContract"), "href"): Attribute 'href' of object 'Object Repository/PartnerQuoteSelection/ClickAccountFromContract' is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view'
+
+2023-09-21 19:10:30 - [MESSAGE][PASSED] - Attribute 'href' of object 'Object Repository/PartnerQuoteSelection/ClickAccountFromContract' is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view'
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - out.println("URL of the Account:" + URL): null
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/OpenInaNewTab"), ["Path":URL]): Call Test Case 'Test Cases/OpenInaNewTab' successfully
+
+2023-09-21 19:10:30 - [TEST_CASE][PASSED] - Test Cases/OpenInaNewTab: Test Cases/OpenInaNewTab
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Contract/800JX000005DtrvYAC/view'
+
+2023-09-21 19:10:30 - [MESSAGE][PASSED] - Current window's url is: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Contract/800JX000005DtrvYAC/view'
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2023-09-21 19:10:30 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - js = driver: null
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2023-09-21 19:10:30 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-09-21 19:10:30 - [TEST_STEP][PASSED] - navigateToUrl(Path): Navigate to 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view' successfully
+
+2023-09-21 19:10:32 - [MESSAGE][PASSED] - Navigate to 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Account/001JX000007mlZXYAY/view' successfully
+
+2023-09-21 19:10:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OpenInaNewTab' successfully
+
+2023-09-21 19:10:32 - [TEST_STEP][PASSED] - sleep(5000): null
+
+2023-09-21 19:10:37 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2023-09-21 19:10:37 - [MESSAGE][PASSED] - Refresh successfully
+
+2023-09-21 19:10:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount"), 20): Object 'Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount' is present
+
+2023-09-21 19:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount' is present
+
+2023-09-21 19:10:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount"), 20): Object 'Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount' is present
+
+2023-09-21 19:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount' is present
+
+2023-09-21 19:10:43 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteSelection/ClickOpportunityfromAccount"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:44 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerQuoteSelection/OpportunityTextVerify"), 20): Object 'Object Repository/PartnerQuoteSelection/OpportunityTextVerify' is present
+
+2023-09-21 19:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerQuoteSelection/OpportunityTextVerify' is present
+
+2023-09-21 19:10:45 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteSelection/SelectPartnerOpportunitylinkedwithQuote"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:46 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerQuoteSelection/OpportunityPageVerification"), 20): Object 'Object Repository/PartnerQuoteSelection/OpportunityPageVerification' is present
+
+2023-09-21 19:10:49 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerQuoteSelection/OpportunityPageVerification' is present
+
+2023-09-21 19:10:49 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PartnerQuoteSelection/SelectQuote"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-21 19:10:49 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PartnerContract-PartnerQuotePageandEditLines" time="37.032" classname="Test Cases/PartnerContract-PartnerQuotePageandEditLines" status="FAILED">
+         <failure type="FAILED" message="Test Cases/PartnerContract-PartnerQuotePageandEditLines FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at PartnerContract-PartnerQuotePageandEditLines.run(PartnerContract-PartnerQuotePageandEditLines:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695303324640.run(TempTestSuite1695303324640.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' located by '//div[@data-target-selection-name=&quot;sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c&quot;]//span[text()='Partner Contract']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-21 19:10:50 - [TEST_CASE][FAILED] - Test Cases/PartnerContract-PartnerQuotePageandEditLines: Test Cases/PartnerContract-PartnerQuotePageandEditLines FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at PartnerContract-PartnerQuotePageandEditLines.run(PartnerContract-PartnerQuotePageandEditLines:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695303324640.run(TempTestSuite1695303324640.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' located by '//div[@data-target-selection-name="sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c"]//span[text()='Partner Contract']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-21 19:10:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerQuotePageandEditlines/QuoteTextVerification"), 20): Object 'Object Repository/PartnerQuotePageandEditlines/QuoteTextVerification' is present
+
+2023-09-21 19:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerQuotePageandEditlines/QuoteTextVerification' is present
+
+2023-09-21 19:10:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PartnerQuotePageandEditlines/StatusField"), 20): Scroll to object 'Object Repository/PartnerQuotePageandEditlines/StatusField' successfully
+
+2023-09-21 19:10:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PartnerQuotePageandEditlines/StatusField' successfully
+
+2023-09-21 19:10:53 - [TEST_STEP][PASSED] - Status = verifyElementText(findTestObject("Object Repository/PartnerQuotePageandEditlines/StatusFieldValue"), "Draft"): Actual text and expected text of test object 'Object Repository/PartnerQuotePageandEditlines/StatusFieldValue' are matched.
+
+2023-09-21 19:10:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/PartnerQuotePageandEditlines/StatusFieldValue' are matched.
+
+2023-09-21 19:10:55 - [TEST_STEP][PASSED] - out.println(Status): null
+
+2023-09-21 19:10:55 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("Object Repository/PartnerQuotePageandEditlines/PartnerContract"), 20): Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at PartnerContract-PartnerQuotePageandEditLines.run(PartnerContract-PartnerQuotePageandEditLines:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695303324640.run(TempTestSuite1695303324640.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' located by '//div[@data-target-selection-name="sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c"]//span[text()='Partner Contract']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at Script1693327212913.run(Script1693327212913.groovy:30)
+	... 13 more
+)
+
+2023-09-21 19:11:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@data-target-selection-name="sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c"]//span[text()='Partner Contract']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-09-21 19:11:27 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at PartnerContract-PartnerQuotePageandEditLines.run(PartnerContract-PartnerQuotePageandEditLines:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695303324640.run(TempTestSuite1695303324640.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' located by '//div[@data-target-selection-name="sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c"]//span[text()='Partner Contract']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at Script1693327212913.run(Script1693327212913.groovy:30)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230921_190524\\Partner Quote - PCO Contract - System Admin\\20230921_190524\\1695303686851.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-21 19:10:50 - [TEST_CASE][FAILED] - Test Cases/PartnerContract-PartnerQuotePageandEditLines: Test Cases/PartnerContract-PartnerQuotePageandEditLines FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at PartnerContract-PartnerQuotePageandEditLines.run(PartnerContract-PartnerQuotePageandEditLines:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695303324640.run(TempTestSuite1695303324640.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' located by '//div[@data-target-selection-name="sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c"]//span[text()='Partner Contract']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-21 19:05:29 - [TEST_SUITE][FAILED] - Partner Quote - PCO Contract - System Admin: Test Cases/PartnerContract-PartnerQuotePageandEditLines FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at PartnerContract-PartnerQuotePageandEditLines.run(PartnerContract-PartnerQuotePageandEditLines:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695303324640.run(TempTestSuite1695303324640.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' located by '//div[@data-target-selection-name="sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c"]//span[text()='Partner Contract']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-09-21 19:05:29 - [TEST_SUITE][FAILED] - Partner Quote - PCO Contract - System Admin: Test Cases/PartnerContract-PartnerQuotePageandEditLines FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/PartnerQuotePageandEditlines/PartnerContract'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$6.call(Unknown Source)
+	at PartnerContract-PartnerQuotePageandEditLines.run(PartnerContract-PartnerQuotePageandEditLines:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1695303324640.run(TempTestSuite1695303324640.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/PartnerQuotePageandEditlines/PartnerContract' located by '//div[@data-target-selection-name="sfdc:RecordField.SBQQ__Quote__c.PartnerContract__c"]//span[text()='Partner Contract']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ResellerAccount-DirectCustomerContract-VIPRE-User,Chrome 116.0.0.0,,,2023-09-12 11:36:59,2023-09-12 11:40:23,3m - 23.617s,FAILED
+,,,,,,,
+Test Cases/LoginasVIPREUser,Chrome 116.0.0.0,,,2023-09-12 11:36:59,2023-09-12 11:38:07,1m - 7.184s,PASSED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-09-12 11:37:00,2023-09-12 11:37:26,25.997s,PASSED
+"click(findTestObject(""Object Repository/UserLogin/SetUp""))",Chrome 116.0.0.0,,,2023-09-12 11:37:26,2023-09-12 11:37:29,2.886s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-12 11:37:29,2023-09-12 11:37:34,5.032s,PASSED
+"click(findTestObject(""Object Repository/UserLogin/SetUpforCurrentApp""))",Chrome 116.0.0.0,,,2023-09-12 11:37:34,2023-09-12 11:37:34,0.486s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-12 11:37:34,2023-09-12 11:37:39,5.007s,PASSED
+switchToWindowIndex(1),Chrome 116.0.0.0,,,2023-09-12 11:37:39,2023-09-12 11:37:39,0.054s,PASSED
+"setText(findTestObject(""Object Repository/UserLogin/SearchSetUp""), LoginUserNameVIPRE)",Chrome 116.0.0.0,,,2023-09-12 11:37:39,2023-09-12 11:37:43,3.786s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-12 11:37:43,2023-09-12 11:37:48,5.002s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/UserLogin/SelectSearchUser"", [""value"":LoginUserNameVIPRE]), 20)",Chrome 116.0.0.0,,,2023-09-12 11:37:48,2023-09-12 11:37:49,0.601s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-12 11:37:49,2023-09-12 11:37:54,5.012s,PASSED
+"switchToFrame(findTestObject(""Object Repository/UserLogin/UserIFrame""), 20)",Chrome 116.0.0.0,,,2023-09-12 11:37:54,2023-09-12 11:38:01,7.383s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/UserLogin/IsActiveChecked""), 20)",Chrome 116.0.0.0,,,2023-09-12 11:38:01,2023-09-12 11:38:01,0.204s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/UserLogin/LoginButton""), 20)",Chrome 116.0.0.0,,,2023-09-12 11:38:01,2023-09-12 11:38:02,0.401s,PASSED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-12 11:38:02,2023-09-12 11:38:07,5.011s,PASSED
+,,,,,,,
+Test Cases/CreatingResellerAccount-User-VIPRE,Chrome 116.0.0.0,,,2023-09-12 11:38:07,2023-09-12 11:38:52,45.494s,FAILED
+sleep(5000),Chrome 116.0.0.0,,,2023-09-12 11:38:07,2023-09-12 11:38:12,5.013s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-12 11:38:12,2023-09-12 11:38:15,3.245s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/AccountObject/AccountsTab""), 30)",Chrome 116.0.0.0,,,2023-09-12 11:38:15,2023-09-12 11:38:16,0.526s,PASSED
+"vipreQA.ClickUsingJS.ClickNewObj(findTestObject(""Object Repository/AccountObject/NewButtononAccount""), 30)",Chrome 116.0.0.0,,,2023-09-12 11:38:16,2023-09-12 11:38:17,1.606s,PASSED
+"click(findTestObject(""Object Repository/AccountRecordTypes/Reseller""))",Chrome 116.0.0.0,,,2023-09-12 11:38:17,2023-09-12 11:38:19,1.851s,PASSED
+"click(findTestObject(""Object Repository/AccountRecordTypes/NextButton""))",Chrome 116.0.0.0,,,2023-09-12 11:38:19,2023-09-12 11:38:20,0.466s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountRecordTypes/ResellerTextVerify""), 20, STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-12 11:38:20,2023-09-12 11:38:52,32.384s,FAILED
+,,,,,,,
+Test Cases/CreatingNewContact-User,Chrome 116.0.0.0,,,2023-09-12 11:38:52,2023-09-12 11:39:27,35.380s,FAILED
+"verifyElementClickable(findTestObject(""Object Repository/ContactObject/ContactLinkObject""))",Chrome 116.0.0.0,,,2023-09-12 11:38:52,2023-09-12 11:39:27,34.971s,FAILED
+,,,,,,,
+Test Cases/DirectQuoteCreation-VIPRE,Chrome 116.0.0.0,,,2023-09-12 11:39:27,2023-09-12 11:40:01,33.506s,FAILED
+"click(findTestObject(""Object Repository/DirectQuoteCreationObject/NewDirectQuoteButton""))",Chrome 116.0.0.0,,,2023-09-12 11:39:28,2023-09-12 11:40:01,33.199s,FAILED
+,,,,,,,
+Test Cases/AddingQuoteLine,Chrome 116.0.0.0,,,2023-09-12 11:40:01,2023-09-12 11:40:23,21.801s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/QuoteLineandQuote/EditLineButton""), 20)",Chrome 116.0.0.0,,,2023-09-12 11:40:01,2023-09-12 11:40:23,21.430s,FAILED

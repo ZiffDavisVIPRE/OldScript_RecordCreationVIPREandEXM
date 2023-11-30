@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DirectAccount-PAOpp-MSPContract-ExcelMicro-User" time="160.897" tests="4" failures="1" errors="0">
+   <testsuite name="DirectAccount-PAOpp-MSPContract-ExcelMicro-User" tests="4" failures="1" errors="0" time="160.897" skipped="0" timestamp="2023-09-13 14:21:04" hostname="GayathriKumaresan - LT-NB-571" id="Test Suites/DirectAccount-PAOpp-MSPContract-ExcelMicro-User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230913_142101\\DirectAccount-PAOpp-MSPContract-ExcelMicro-User\\20230913_142102"/>
+         <property name="logFiles" value="C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230913_142101\\DirectAccount-PAOpp-MSPContract-ExcelMicro-User\\20230913_142102\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230913_142101\\DirectAccount-PAOpp-MSPContract-ExcelMicro-User\\20230913_142102\\1694595225390.png, C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230913_142101\\DirectAccount-PAOpp-MSPContract-ExcelMicro-User\\20230913_142102\\1694595225625.png"/>
+         <property name="hostName" value="GayathriKumaresan - LT-NB-571"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.57"/>
+         <property name="sessionId" value="6f5203eb5d5de00b4c585a506e32d3f2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/LoginasExcelMicroUser" time="56.341" classname="Test Cases/LoginasExcelMicroUser" status="PASSED">
+         <system-out><![CDATA[2023-09-13 14:21:05 - [TEST_CASE][PASSED] - Test Cases/LoginasExcelMicroUser: Test Cases/LoginasExcelMicroUser
+
+2023-09-13 14:21:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Test Cases/LogintoSalesforce-Admin"), null): Call Test Case 'Test Cases/LogintoSalesforce-Admin' successfully
+
+2023-09-13 14:21:05 - [TEST_CASE][PASSED] - Test Cases/LogintoSalesforce-Admin: Test Cases/LogintoSalesforce-Admin
+
+2023-09-13 14:21:05 - [TEST_STEP][PASSED] - openBrowser(LoginURL): Browser is opened with url: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/page/home'
+
+2023-09-13 14:21:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-13 14:21:06 - [MESSAGE][INFO] - User set preference: ['args', '[--disable-notifications]']
+
+2023-09-13 14:21:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-13 14:21:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://vipre-exm--qa.sandbox.lightning.force.com/lightning/page/home'
+
+2023-09-13 14:21:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2023-09-13 14:21:14 - [MESSAGE][PASSED] - Current window maximized
+
+2023-09-13 14:21:14 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/Username"), UserName): Text 'eu_gayathri.kumaresan@listertechnologies.com.qa' is set on object 'Object Repository/LoginPage/Username'
+
+2023-09-13 14:21:15 - [MESSAGE][PASSED] - Text 'eu_gayathri.kumaresan@listertechnologies.com.qa' is set on object 'Object Repository/LoginPage/Username'
+
+2023-09-13 14:21:15 - [TEST_STEP][PASSED] - setText(findTestObject("LoginPage/Password"), Password): Text 'Lister@123456' is set on object 'Object Repository/LoginPage/Password'
+
+2023-09-13 14:21:16 - [MESSAGE][PASSED] - Text 'Lister@123456' is set on object 'Object Repository/LoginPage/Password'
+
+2023-09-13 14:21:16 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/LoginButton")): Object: 'Object Repository/LoginPage/LoginButton' is clicked on
+
+2023-09-13 14:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginPage/LoginButton' is clicked on
+
+2023-09-13 14:21:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LogintoSalesforce-Admin' successfully
+
+2023-09-13 14:21:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountCreationPage/VIPRESalesElement"), 30): Object 'Object Repository/AccountCreationPage/VIPRESalesElement' is present
+
+2023-09-13 14:21:33 - [MESSAGE][PASSED] - Object 'Object Repository/AccountCreationPage/VIPRESalesElement' is present
+
+2023-09-13 14:21:33 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2023-09-13 14:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UserLoginSearch/SearchButton"), STOP_ON_FAILURE): Object: 'Object Repository/UserLoginSearch/SearchButton' is clicked on
+
+2023-09-13 14:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UserLoginSearch/SearchButton' is clicked on
+
+2023-09-13 14:21:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UserLoginSearch/SearchInput"), LoginUserNameExcelMicro): Keys 'David Russo' sent to object: 'Object Repository/UserLoginSearch/SearchInput'
+
+2023-09-13 14:21:37 - [MESSAGE][PASSED] - Keys 'David Russo' sent to object: 'Object Repository/UserLoginSearch/SearchInput'
+
+2023-09-13 14:21:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/UserLoginSearch/SearchInput"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UserLoginSearch/SearchInput'
+
+2023-09-13 14:21:39 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UserLoginSearch/SearchInput'
+
+2023-09-13 14:21:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/UserLoginSearch/PeopleElement"), 20): Object 'Object Repository/UserLoginSearch/PeopleElement' is present
+
+2023-09-13 14:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/UserLoginSearch/PeopleElement' is present
+
+2023-09-13 14:21:44 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/UserLoginSearch/PeopleElement"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:21:45 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:21:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UserLoginSearch/SelectUserfromPeople")): Object: 'Object Repository/UserLoginSearch/SelectUserfromPeople' is clicked on
+
+2023-09-13 14:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UserLoginSearch/SelectUserfromPeople' is clicked on
+
+2023-09-13 14:21:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UserLoginSearch/UserDetailButton")): Object: 'Object Repository/UserLoginSearch/UserDetailButton' is clicked on
+
+2023-09-13 14:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UserLoginSearch/UserDetailButton' is clicked on
+
+2023-09-13 14:21:49 - [TEST_STEP][PASSED] - switchToFrame(findTestObject("Object Repository/UserLoginSearch/UserIframe"), 20): null
+
+2023-09-13 14:22:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/UserLoginSearch/LoginButton"), 30): Object 'Object Repository/UserLoginSearch/LoginButton' is present
+
+2023-09-13 14:22:01 - [MESSAGE][PASSED] - Object 'Object Repository/UserLoginSearch/LoginButton' is present
+
+2023-09-13 14:22:01 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/UserLoginSearch/LoginButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:22:01 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreatingNewDirectAccount-ExcelMicro" time="37.77" classname="Test Cases/CreatingNewDirectAccount-ExcelMicro" status="PASSED">
+         <system-out><![CDATA[2023-09-13 14:22:01 - [TEST_CASE][PASSED] - Test Cases/CreatingNewDirectAccount-ExcelMicro: Test Cases/CreatingNewDirectAccount-ExcelMicro
+
+2023-09-13 14:22:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountCreationPage/ExcelMicroSalesElement"), 30): Object 'Object Repository/AccountCreationPage/ExcelMicroSalesElement' is present
+
+2023-09-13 14:22:16 - [MESSAGE][PASSED] - Object 'Object Repository/AccountCreationPage/ExcelMicroSalesElement' is present
+
+2023-09-13 14:22:16 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/AccountObject/AccountsTab"), 30): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:22:16 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:22:16 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/AccountObject/NewButtononAccount"), 30): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:22:18 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountRecordTypes/DirectClient")): Object: 'Object Repository/AccountRecordTypes/DirectClient' is clicked on
+
+2023-09-13 14:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountRecordTypes/DirectClient' is clicked on
+
+2023-09-13 14:22:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountRecordTypes/NextButton")): Object: 'Object Repository/AccountRecordTypes/NextButton' is clicked on
+
+2023-09-13 14:22:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountRecordTypes/NextButton' is clicked on
+
+2023-09-13 14:22:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("AccountCreationPage/AccountName"), AccountName_Direct_ExcelMicro): Keys 'TestAutomation_DirectClient_ExcelMicro_001' sent to object: 'Object Repository/AccountCreationPage/AccountName'
+
+2023-09-13 14:22:25 - [MESSAGE][PASSED] - Keys 'TestAutomation_DirectClient_ExcelMicro_001' sent to object: 'Object Repository/AccountCreationPage/AccountName'
+
+2023-09-13 14:22:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/AccountCreationPage/BillingCountryLabel"), 20): Scroll to object 'Object Repository/AccountCreationPage/BillingCountryLabel' successfully
+
+2023-09-13 14:22:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AccountCreationPage/BillingCountryLabel' successfully
+
+2023-09-13 14:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/BillingCountryNone")): Object: 'Object Repository/AccountCreationPage/BillingCountryNone' is clicked on
+
+2023-09-13 14:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/BillingCountryNone' is clicked on
+
+2023-09-13 14:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/BillingCountryBahrain")): Object: 'Object Repository/AccountCreationPage/BillingCountryBahrain' is clicked on
+
+2023-09-13 14:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/BillingCountryBahrain' is clicked on
+
+2023-09-13 14:22:26 - [TEST_STEP][PASSED] - setText(findTestObject("AccountCreationPage/BillingStreet"), BillingStreet): Text '234, Sidney Street' is set on object 'Object Repository/AccountCreationPage/BillingStreet'
+
+2023-09-13 14:22:27 - [MESSAGE][PASSED] - Text '234, Sidney Street' is set on object 'Object Repository/AccountCreationPage/BillingStreet'
+
+2023-09-13 14:22:27 - [TEST_STEP][PASSED] - setText(findTestObject("AccountCreationPage/BillingCity"), BillingCity): Text 'Toronto' is set on object 'Object Repository/AccountCreationPage/BillingCity'
+
+2023-09-13 14:22:28 - [MESSAGE][PASSED] - Text 'Toronto' is set on object 'Object Repository/AccountCreationPage/BillingCity'
+
+2023-09-13 14:22:28 - [TEST_STEP][PASSED] - setText(findTestObject("AccountCreationPage/PostalCode"), PostalCode): Text '12AB3N' is set on object 'Object Repository/AccountCreationPage/PostalCode'
+
+2023-09-13 14:22:29 - [MESSAGE][PASSED] - Text '12AB3N' is set on object 'Object Repository/AccountCreationPage/PostalCode'
+
+2023-09-13 14:22:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/AccountCreationPage/SalesTerritoryLabel"), 20): Scroll to object 'Object Repository/AccountCreationPage/SalesTerritoryLabel' successfully
+
+2023-09-13 14:22:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/AccountCreationPage/SalesTerritoryLabel' successfully
+
+2023-09-13 14:22:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/SalesTerritoryNone")): Object: 'Object Repository/AccountCreationPage/SalesTerritoryNone' is clicked on
+
+2023-09-13 14:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/SalesTerritoryNone' is clicked on
+
+2023-09-13 14:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/SalesTerritoryValue", ["value":SalesTerritory_ExcelMicro])): Object: 'Object Repository/AccountCreationPage/SalesTerritoryValue' is clicked on
+
+2023-09-13 14:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/SalesTerritoryValue' is clicked on
+
+2023-09-13 14:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/AccountCreationPage/SaveButton")): Object: 'Object Repository/AccountCreationPage/SaveButton' is clicked on
+
+2023-09-13 14:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/AccountCreationPage/SaveButton' is clicked on
+
+2023-09-13 14:22:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/AccountCreationPage/AccountPageAppear"), 30): Object 'Object Repository/AccountCreationPage/AccountPageAppear' is present
+
+2023-09-13 14:22:39 - [MESSAGE][PASSED] - Object 'Object Repository/AccountCreationPage/AccountPageAppear' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreatePAOpp-User-ExcelMicro-DirectAccount" time="23.985" classname="Test Cases/CreatePAOpp-User-ExcelMicro-DirectAccount" status="PASSED">
+         <system-out><![CDATA[2023-09-13 14:22:39 - [TEST_CASE][PASSED] - Test Cases/CreatePAOpp-User-ExcelMicro-DirectAccount: Test Cases/CreatePAOpp-User-ExcelMicro-DirectAccount
+
+2023-09-13 14:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/PAOpportunityButton-ExcelMicro"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/PAOpportunityButton-ExcelMicro' is clicked on
+
+2023-09-13 14:22:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/PAOpportunityButton-ExcelMicro' is clicked on
+
+2023-09-13 14:22:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/CloseDateBox"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/CloseDateBox' is clicked on
+
+2023-09-13 14:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/CloseDateBox' is clicked on
+
+2023-09-13 14:22:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PartnerAcquisitionCreation/CloseDateBox"), CloseDate_ExcelMicro_User, STOP_ON_FAILURE): Text '9/29/2023' is set on object 'Object Repository/PartnerAcquisitionCreation/CloseDateBox'
+
+2023-09-13 14:22:43 - [MESSAGE][PASSED] - Text '9/29/2023' is set on object 'Object Repository/PartnerAcquisitionCreation/CloseDateBox'
+
+2023-09-13 14:22:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/SaveButton"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/SaveButton' is clicked on
+
+2023-09-13 14:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/SaveButton' is clicked on
+
+2023-09-13 14:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/ClickOpportunities"), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/ClickOpportunities' is clicked on
+
+2023-09-13 14:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/ClickOpportunities' is clicked on
+
+2023-09-13 14:22:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerAcquisitionCreation/OpportunityTextVerify"), 30, STOP_ON_FAILURE): Object 'Object Repository/PartnerAcquisitionCreation/OpportunityTextVerify' is present
+
+2023-09-13 14:22:53 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerAcquisitionCreation/OpportunityTextVerify' is present
+
+2023-09-13 14:22:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PartnerAcquisitionCreation/ClickonCreatedOpportunity", ["value":AccountName_Direct_ExcelMicro]), STOP_ON_FAILURE): Object: 'Object Repository/PartnerAcquisitionCreation/ClickonCreatedOpportunity' is clicked on
+
+2023-09-13 14:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PartnerAcquisitionCreation/ClickonCreatedOpportunity' is clicked on
+
+2023-09-13 14:22:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PartnerAcquisitionCreation/PAOppPageVerify", ["value":AccountName_Direct_ExcelMicro]), 20, STOP_ON_FAILURE): Object 'Object Repository/PartnerAcquisitionCreation/PAOppPageVerify' is present
+
+2023-09-13 14:23:01 - [MESSAGE][PASSED] - Object 'Object Repository/PartnerAcquisitionCreation/PAOppPageVerify' is present
+
+2023-09-13 14:23:01 - [TEST_STEP][PASSED] - sleep(2000): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MSPContract-ExcelMicroUser-DirectAccount" time="42.6" classname="Test Cases/MSPContract-ExcelMicroUser-DirectAccount" status="FAILED">
+         <failure type="FAILED" message="Test Cases/MSPContract-ExcelMicroUser-DirectAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-09-13 14:23:03 - [TEST_CASE][FAILED] - Test Cases/MSPContract-ExcelMicroUser-DirectAccount: Test Cases/MSPContract-ExcelMicroUser-DirectAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-09-13 14:23:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation' is present
+
+2023-09-13 14:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation' is present
+
+2023-09-13 14:23:04 - [TEST_STEP][PASSED] - scrollToPosition(0, 3500): Browser is scrolled to position x = 0, y = 3500
+
+2023-09-13 14:23:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 3500
+
+2023-09-13 14:23:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton' is present
+
+2023-09-13 14:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton' is present
+
+2023-09-13 14:23:05 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:06 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/PriceBookHeader-ExcelMicro"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/PriceBookHeader-ExcelMicro' is present
+
+2023-09-13 14:23:07 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/PriceBookHeader-ExcelMicro' is present
+
+2023-09-13 14:23:07 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/PAProductSelection", ["value":PAProducts]), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:07 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:07 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/NextButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:08 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductVerification"), 20): Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductVerification' is present
+
+2023-09-13 14:23:10 - [MESSAGE][PASSED] - Object 'Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductVerification' is present
+
+2023-09-13 14:23:10 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/ClickSalePrice"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:11 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/SalesPriceInput"), SalePrice): Text '25' is set on object 'Object Repository/PAOppMandatoryField/AddandEditProducts/SalesPriceInput'
+
+2023-09-13 14:23:12 - [MESSAGE][PASSED] - Text '25' is set on object 'Object Repository/PAOppMandatoryField/AddandEditProducts/SalesPriceInput'
+
+2023-09-13 14:23:12 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/ClickEditQuantity"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:12 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput"), Quantity, STOP_ON_FAILURE): Keys '50' sent to object: 'Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput'
+
+2023-09-13 14:23:13 - [MESSAGE][PASSED] - Keys '50' sent to object: 'Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput'
+
+2023-09-13 14:23:13 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-13 14:23:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput"), Quantity): Keys '50' sent to object: 'Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput'
+
+2023-09-13 14:23:14 - [MESSAGE][PASSED] - Keys '50' sent to object: 'Object Repository/PAOppMandatoryField/AddandEditProducts/QuantityInput'
+
+2023-09-13 14:23:14 - [TEST_STEP][PASSED] - sleep(2000): null
+
+2023-09-13 14:23:16 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/AddandEditProducts/EditSelectedProductSaveButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:17 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:17 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-13 14:23:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): Scroll to object 'Object Repository/PAOppMandatoryField/RevalidateButton' successfully
+
+2023-09-13 14:23:18 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/PAOppMandatoryField/RevalidateButton' successfully
+
+2023-09-13 14:23:18 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-13 14:23:19 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:20 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:20 - [TEST_STEP][PASSED] - sleep(1000): null
+
+2023-09-13 14:23:21 - [TEST_STEP][PASSED] - vipreQA.ClickUsingJS.ClickNewObj(findTestObject("Object Repository/PAOppMandatoryField/RevalidateButton"), 20): vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:24 - [MESSAGE][PASSED] - vipreQA.ClickUsingJS.ClickNewObj is PASSED
+
+2023-09-13 14:23:24 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage"), 20): Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-09-13 14:23:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-09-13 14:23:45 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230913_142101\\DirectAccount-PAOpp-MSPContract-ExcelMicro-User\\20230913_142102\\1694595225390.png]]
+
+2023-09-13 14:23:45 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\gayathri.kumaresan\\git\\VIPRE-RecordCreations\\Reports\\20230913_142101\\DirectAccount-PAOpp-MSPContract-ExcelMicro-User\\20230913_142102\\1694595225625.png]]]]></system-out>
+         <system-err><![CDATA[2023-09-13 14:23:03 - [TEST_CASE][FAILED] - Test Cases/MSPContract-ExcelMicroUser-DirectAccount: Test Cases/MSPContract-ExcelMicroUser-DirectAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-13 14:21:04 - [TEST_SUITE][FAILED] - DirectAccount-PAOpp-MSPContract-ExcelMicro-User: Test Cases/MSPContract-ExcelMicroUser-DirectAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-09-13 14:21:04 - [TEST_SUITE][FAILED] - DirectAccount-PAOpp-MSPContract-ExcelMicro-User: Test Cases/MSPContract-ExcelMicroUser-DirectAccount FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1464)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$3.call(Unknown Source)
+	at MSPContract-ExcelMicroUser-DirectAccount.run(MSPContract-ExcelMicroUser-DirectAccount:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1694595062955.run(TempTestSuite1694595062955.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/GenerateMSPPricing/GenerateMSPPricingValidationMessage' located by '//lightning-formatted-rich-text//span//p//strong[contains(text(),'Generate MSP Pricing')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

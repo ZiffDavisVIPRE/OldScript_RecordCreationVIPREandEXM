@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DirectAccount-PAOpp-MSPContract-ExcelMicro-User,Chrome 116.0.0.0,,,2023-10-10 11:58:01,2023-10-10 11:59:14,1m - 13.477s,FAILED
+,,,,,,,
+Test Cases/LoginasExcelMicroUser,Chrome 116.0.0.0,,,2023-10-10 11:58:01,2023-10-10 11:58:50,49.297s,FAILED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-10-10 11:58:02,2023-10-10 11:58:24,22.068s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-10-10 11:58:24,2023-10-10 11:58:24,0.413s,PASSED
+sleep(2000),Chrome 116.0.0.0,,,2023-10-10 11:58:24,2023-10-10 11:58:26,2.005s,PASSED
+"click(findTestObject(""Object Repository/UserLoginSearch/SearchButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-10-10 11:58:26,2023-10-10 11:58:27,0.558s,PASSED
+"sendKeys(findTestObject(""Object Repository/UserLoginSearch/SearchInput""), LoginUserNameExcelMicro)",Chrome 116.0.0.0,,,2023-10-10 11:58:27,2023-10-10 11:58:27,0.896s,PASSED
+"sendKeys(findTestObject(""Object Repository/UserLoginSearch/SearchInput""), Keys.chord(ENTER))",Chrome 116.0.0.0,,,2023-10-10 11:58:27,2023-10-10 11:58:29,1.376s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/UserLoginSearch/PeopleElement""), 20)",Chrome 116.0.0.0,,,2023-10-10 11:58:29,2023-10-10 11:58:50,21.638s,FAILED
+,,,,,,,
+Test Cases/CreatingNewDirectAccount-ExcelMicro,Chrome 116.0.0.0,,,2023-10-10 11:58:50,2023-10-10 11:59:13,22.575s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/ExcelMicroSalesElement""), 30)",Chrome 116.0.0.0,,,2023-10-10 11:58:51,2023-10-10 11:59:13,22.172s,FAILED
+,,,,,,,
+Test Cases/CreatePAOpp-User-ExcelMicro-DirectAccount,Chrome 116.0.0.0,,,2023-10-10 11:59:13,2023-10-10 11:59:14,0.570s,FAILED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/PAOpportunityButton-ExcelMicro""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-10-10 11:59:14,2023-10-10 11:59:14,0.117s,FAILED
+,,,,,,,
+Test Cases/MSPContract-ExcelMicroUser-DirectAccount,Chrome 116.0.0.0,,,2023-10-10 11:59:14,2023-10-10 11:59:14,0.751s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation""), 20)",Chrome 116.0.0.0,,,2023-10-10 11:59:14,2023-10-10 11:59:14,0.122s,FAILED

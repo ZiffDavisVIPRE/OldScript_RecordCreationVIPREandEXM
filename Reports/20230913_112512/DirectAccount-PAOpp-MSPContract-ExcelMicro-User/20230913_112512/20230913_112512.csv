@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DirectAccount-PAOpp-MSPContract-ExcelMicro-User,Chrome 116.0.0.0,,,2023-09-13 11:25:15,2023-09-13 11:27:57,2m - 41.985s,FAILED
+,,,,,,,
+Test Cases/LoginasExcelMicroUser,Chrome 116.0.0.0,,,2023-09-13 11:25:15,2023-09-13 11:25:53,37.745s,FAILED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-09-13 11:25:15,2023-09-13 11:25:43,27.423s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/VIPRESalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-13 11:25:43,2023-09-13 11:25:46,3.693s,PASSED
+sleep(2000),Chrome 116.0.0.0,,,2023-09-13 11:25:46,2023-09-13 11:25:48,2.006s,PASSED
+"click(findTestObject(""Object Repository/UserLoginSearch/SearchButton""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-13 11:25:48,2023-09-13 11:25:49,0.928s,PASSED
+"sendKeys(findTestObject(""Object Repository/UserLoginSearch/SearchInput""), LoginUserNameExcelMicro)",Chrome 116.0.0.0,,,2023-09-13 11:25:49,2023-09-13 11:25:53,3.397s,FAILED
+,,,,,,,
+Test Cases/CreatingNewDirectAccount-ExcelMicro,Chrome 116.0.0.0,,,2023-09-13 11:25:53,2023-09-13 11:26:28,35.510s,FAILED
+"verifyElementPresent(findTestObject(""Object Repository/AccountCreationPage/ExcelMicroSalesElement""), 30)",Chrome 116.0.0.0,,,2023-09-13 11:25:53,2023-09-13 11:26:28,35.110s,FAILED
+,,,,,,,
+Test Cases/CreatePAOpp-User-ExcelMicro-DirectAccount,Chrome 116.0.0.0,,,2023-09-13 11:26:28,2023-09-13 11:27:02,33.500s,FAILED
+"click(findTestObject(""Object Repository/PartnerAcquisitionCreation/PAOpportunityButton-ExcelMicro""), STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-13 11:26:29,2023-09-13 11:27:02,33.045s,FAILED
+,,,,,,,
+Test Cases/MSPContract-ExcelMicroUser-DirectAccount,Chrome 116.0.0.0,,,2023-09-13 11:27:02,2023-09-13 11:27:57,54.990s,FAILED
+"callTestCase(findTestCase(""Test Cases/LogintoSalesforce-Admin""), null)",Chrome 116.0.0.0,,,2023-09-13 11:27:02,2023-09-13 11:27:30,27.461s,PASSED
+"navigateToUrl(""https://vipre-exm--qa.sandbox.lightning.force.com/lightning/r/Opportunity/0060E00001v2FnOQAU/view"")",Chrome 116.0.0.0,,,2023-09-13 11:27:30,2023-09-13 11:27:34,4.001s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PAOppMandatoryField/AddandEditProducts/AddProductRevalidation""), 20)",Chrome 116.0.0.0,,,2023-09-13 11:27:34,2023-09-13 11:27:57,22.941s,FAILED

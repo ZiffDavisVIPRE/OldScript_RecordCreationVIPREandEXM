@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SubscriptionTerm</name>
+   <tag></tag>
+   <elementGuidId>74f0289d-3f20-40e9-aa6d-20835c642bda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'myinput']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>myinput</value>
+      <webElementGuid>33995d21-f82d-4575-ad42-b74a4b402d9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/ShadowRoot_Test_EditQuote/ShadowRoot_Parent_EditQuote</value>
+      <webElementGuid>a8a8982b-067e-4b6e-8027-3b93e9b3c2f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element_is_shadow_root</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>261944a3-d383-429e-aa38-ec9344e89c68</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
